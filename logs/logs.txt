@@ -1,0 +1,410 @@
+2024-12-02 13:35:41,935 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 13:35:41,954 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 13:35:41,954 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 13:35:43,007 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 13:35:43,007 — plugin.architecture — INFO — collect:17 — NSX custom API started collect()
+2024-12-02 13:36:46,778 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 13:36:46,779 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 13:36:46,779 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 13:36:47,022 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 13:36:47,022 — plugin.architecture — INFO — collect:17 — NSX custom API started collect()
+2024-12-02 13:37:36,268 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 13:37:36,269 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 13:37:36,269 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 13:37:36,560 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 13:37:36,560 — plugin.architecture — INFO — collect:18 — NSX custom API started collect()
+2024-12-02 13:42:21,999 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 13:42:22,000 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 13:42:22,000 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 13:42:22,248 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 13:42:22,249 — plugin.architecture — INFO — collect:18 — NSX custom API started collect()
+2024-12-02 13:42:22,249 — plugin.architecture — INFO — collect:23 — https://10.192.108.3
+2024-12-02 13:42:22,808 — plugin.architecture — ERROR — collect:41 — error in processing data None
+2024-12-02 13:42:22,812 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 13:42:22,812 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 13:44:21,669 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 13:44:21,670 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 13:44:21,670 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 13:44:21,961 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 13:44:21,961 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 13:44:21,961 — plugin.architecture — INFO — collect:26 — https://10.192.108.3
+2024-12-02 13:44:22,497 — plugin.architecture — ERROR — collect:44 — error in processing data None
+2024-12-02 13:44:22,503 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 13:44:22,503 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 13:50:57,644 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 13:50:57,645 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 13:50:57,645 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 13:50:57,896 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 13:50:57,897 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 13:50:57,897 — plugin.architecture — INFO — collect:26 — https://10.192.108.3
+2024-12-02 13:50:58,429 — plugin.architecture — ERROR — collect:44 — error in processing data None
+2024-12-02 13:50:58,429 — plugin.architecture — ERROR — collect:45 — error in processing data (403)
+Reason: Forbidden
+HTTP response headers: HTTPHeaderDict({'cache-control': 'no-cache, no-store, max-age=0, must-revalidate', 'pragma': 'no-cache', 'expires': '0', 'x-xss-protection': '1; mode=block', 'x-frame-options': 'SAMEORIGIN', 'x-content-type-options': 'nosniff', 'content-type': 'application/json;charset=UTF-8', 'content-length': '141', 'date': 'Mon, 02 Dec 2024 12:50:58 GMT', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'content-security-policy': "frame-src 'self' blob:; frame-ancestors 'self'  ", 'server': 'envoy'})
+HTTP response body: b'{"module_name":"common-services","error_message":"The credentials were incorrect or the account specified has been locked.","error_code":403}'
+
+2024-12-02 13:50:58,432 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 13:50:58,432 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 13:51:27,395 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 13:51:27,395 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 13:51:27,395 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 13:51:27,616 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 13:51:27,616 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 13:51:27,616 — plugin.architecture — INFO — collect:26 — https://10.192.108.3
+2024-12-02 13:51:27,616 — plugin.architecture — INFO — collect:27 — <vmware.tcsa.collector_sdk.collect.http.rest_configuration.RestConfiguration object at 0x102c986a0>
+2024-12-02 13:51:28,175 — plugin.architecture — ERROR — collect:45 — error in processing data None
+2024-12-02 13:51:28,175 — plugin.architecture — ERROR — collect:46 — error in processing data (403)
+Reason: Forbidden
+HTTP response headers: HTTPHeaderDict({'cache-control': 'no-cache, no-store, max-age=0, must-revalidate', 'pragma': 'no-cache', 'expires': '0', 'x-xss-protection': '1; mode=block', 'x-frame-options': 'SAMEORIGIN', 'x-content-type-options': 'nosniff', 'content-type': 'application/json;charset=UTF-8', 'content-length': '141', 'date': 'Mon, 02 Dec 2024 12:51:28 GMT', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'content-security-policy': "frame-src 'self' blob:; frame-ancestors 'self'  ", 'server': 'envoy'})
+HTTP response body: b'{"module_name":"common-services","error_message":"The credentials were incorrect or the account specified has been locked.","error_code":403}'
+
+2024-12-02 13:51:28,179 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 13:51:28,179 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 13:52:22,567 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 13:52:22,567 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 13:52:22,567 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 13:52:22,792 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 13:52:22,793 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 13:52:22,793 — plugin.architecture — INFO — collect:28 — https://10.192.108.3
+2024-12-02 13:52:23,327 — plugin.architecture — ERROR — collect:46 — error in processing data None
+2024-12-02 13:52:23,327 — plugin.architecture — ERROR — collect:47 — error in processing data (403)
+Reason: Forbidden
+HTTP response headers: HTTPHeaderDict({'cache-control': 'no-cache, no-store, max-age=0, must-revalidate', 'pragma': 'no-cache', 'expires': '0', 'x-xss-protection': '1; mode=block', 'x-frame-options': 'SAMEORIGIN', 'x-content-type-options': 'nosniff', 'content-type': 'application/json;charset=UTF-8', 'content-length': '141', 'date': 'Mon, 02 Dec 2024 12:52:23 GMT', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'content-security-policy': "frame-src 'self' blob:; frame-ancestors 'self'  ", 'server': 'envoy'})
+HTTP response body: b'{"module_name":"common-services","error_message":"The credentials were incorrect or the account specified has been locked.","error_code":403}'
+
+2024-12-02 13:52:23,331 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 13:52:23,331 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 13:52:50,213 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 13:52:50,213 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 13:52:50,213 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 13:52:50,417 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 13:52:50,418 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 13:52:50,418 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 13:52:50,975 — plugin.architecture — ERROR — collect:47 — error in processing data None
+2024-12-02 13:52:50,975 — plugin.architecture — ERROR — collect:48 — error in processing data (403)
+Reason: Forbidden
+HTTP response headers: HTTPHeaderDict({'cache-control': 'no-cache, no-store, max-age=0, must-revalidate', 'pragma': 'no-cache', 'expires': '0', 'x-xss-protection': '1; mode=block', 'x-frame-options': 'SAMEORIGIN', 'x-content-type-options': 'nosniff', 'content-type': 'application/json;charset=UTF-8', 'content-length': '141', 'date': 'Mon, 02 Dec 2024 12:52:51 GMT', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'content-security-policy': "frame-src 'self' blob:; frame-ancestors 'self'  ", 'server': 'envoy'})
+HTTP response body: b'{"module_name":"common-services","error_message":"The credentials were incorrect or the account specified has been locked.","error_code":403}'
+
+2024-12-02 13:52:50,979 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 13:52:50,979 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 13:54:03,492 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 13:54:03,493 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 13:54:03,493 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 13:54:03,717 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 13:54:03,717 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 13:54:03,717 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 13:54:04,273 — plugin.architecture — ERROR — collect:48 — error in processing data None
+2024-12-02 13:54:04,273 — plugin.architecture — ERROR — collect:49 — error in processing data (403)
+Reason: Forbidden
+HTTP response headers: HTTPHeaderDict({'cache-control': 'no-cache, no-store, max-age=0, must-revalidate', 'pragma': 'no-cache', 'expires': '0', 'x-xss-protection': '1; mode=block', 'x-frame-options': 'SAMEORIGIN', 'x-content-type-options': 'nosniff', 'content-type': 'application/json;charset=UTF-8', 'content-length': '141', 'date': 'Mon, 02 Dec 2024 12:54:04 GMT', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'content-security-policy': "frame-src 'self' blob:; frame-ancestors 'self'  ", 'server': 'envoy'})
+HTTP response body: b'{"module_name":"common-services","error_message":"The credentials were incorrect or the account specified has been locked.","error_code":403}'
+
+2024-12-02 13:54:04,276 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 13:54:04,276 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 13:58:45,297 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 13:58:45,297 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 13:58:45,297 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 13:58:45,509 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 13:58:45,510 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 13:58:45,510 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 13:58:46,063 — plugin.architecture — ERROR — collect:49 — error in processing data None
+2024-12-02 13:58:46,064 — plugin.architecture — ERROR — collect:50 — error in processing data (403)
+Reason: Forbidden
+HTTP response headers: HTTPHeaderDict({'cache-control': 'no-cache, no-store, max-age=0, must-revalidate', 'pragma': 'no-cache', 'expires': '0', 'x-xss-protection': '1; mode=block', 'x-frame-options': 'SAMEORIGIN', 'x-content-type-options': 'nosniff', 'content-type': 'application/json;charset=UTF-8', 'content-length': '141', 'date': 'Mon, 02 Dec 2024 12:58:46 GMT', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'content-security-policy': "frame-src 'self' blob:; frame-ancestors 'self'  ", 'server': 'envoy'})
+HTTP response body: b'{"module_name":"common-services","error_message":"The credentials were incorrect or the account specified has been locked.","error_code":403}'
+
+2024-12-02 13:58:46,067 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 13:58:46,067 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 14:00:27,632 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:00:27,633 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:00:27,633 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:00:27,884 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:00:27,884 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:00:27,885 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:00:28,414 — plugin.architecture — ERROR — collect:50 — error in processing data None
+2024-12-02 14:00:28,414 — plugin.architecture — ERROR — collect:51 — error in processing data (403)
+Reason: Forbidden
+HTTP response headers: HTTPHeaderDict({'cache-control': 'no-cache, no-store, max-age=0, must-revalidate', 'pragma': 'no-cache', 'expires': '0', 'x-xss-protection': '1; mode=block', 'x-frame-options': 'SAMEORIGIN', 'x-content-type-options': 'nosniff', 'content-type': 'application/json;charset=UTF-8', 'content-length': '141', 'date': 'Mon, 02 Dec 2024 13:00:28 GMT', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'content-security-policy': "frame-src 'self' blob:; frame-ancestors 'self'  ", 'server': 'envoy'})
+HTTP response body: b'{"module_name":"common-services","error_message":"The credentials were incorrect or the account specified has been locked.","error_code":403}'
+
+2024-12-02 14:00:28,417 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 14:00:28,417 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 14:00:51,530 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:00:51,530 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:00:51,531 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:00:51,795 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:00:51,795 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:00:51,796 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:00:52,370 — plugin.architecture — ERROR — collect:50 — error in processing data None
+2024-12-02 14:00:52,370 — plugin.architecture — ERROR — collect:51 — error in processing data (403)
+Reason: Forbidden
+HTTP response headers: HTTPHeaderDict({'cache-control': 'no-cache, no-store, max-age=0, must-revalidate', 'pragma': 'no-cache', 'expires': '0', 'x-xss-protection': '1; mode=block', 'x-frame-options': 'SAMEORIGIN', 'x-content-type-options': 'nosniff', 'content-type': 'application/json;charset=UTF-8', 'content-length': '141', 'date': 'Mon, 02 Dec 2024 13:00:52 GMT', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'content-security-policy': "frame-src 'self' blob:; frame-ancestors 'self'  ", 'server': 'envoy'})
+HTTP response body: b'{"module_name":"common-services","error_message":"The credentials were incorrect or the account specified has been locked.","error_code":403}'
+
+2024-12-02 14:00:52,373 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 14:00:52,373 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 14:01:09,251 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:01:09,252 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:01:09,252 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:01:09,451 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:01:09,451 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:01:09,452 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:01:10,006 — plugin.architecture — ERROR — collect:50 — error in processing data None
+2024-12-02 14:01:10,006 — plugin.architecture — ERROR — collect:51 — error in processing data (403)
+Reason: Forbidden
+HTTP response headers: HTTPHeaderDict({'cache-control': 'no-cache, no-store, max-age=0, must-revalidate', 'pragma': 'no-cache', 'expires': '0', 'x-xss-protection': '1; mode=block', 'x-frame-options': 'SAMEORIGIN', 'x-content-type-options': 'nosniff', 'content-type': 'application/json;charset=UTF-8', 'content-length': '141', 'date': 'Mon, 02 Dec 2024 13:01:10 GMT', 'strict-transport-security': 'max-age=31536000; includeSubDomains', 'content-security-policy': "frame-src 'self' blob:; frame-ancestors 'self'  ", 'server': 'envoy'})
+HTTP response body: b'{"module_name":"common-services","error_message":"The credentials were incorrect or the account specified has been locked.","error_code":403}'
+
+2024-12-02 14:01:10,009 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 14:01:10,010 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 14:02:23,980 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:02:23,980 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:02:23,980 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:02:24,235 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:02:24,235 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:02:24,236 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:02:24,799 — plugin.architecture — ERROR — collect:49 — error in processing data, HTTP status code: 403
+2024-12-02 14:02:24,799 — plugin.architecture — ERROR — collect:52 — error in processing data, reason: b'{"module_name":"common-services","error_message":"The credentials were incorrect or the account specified has been locked.","error_code":403}'
+2024-12-02 14:02:24,803 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 14:02:24,803 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 14:03:30,828 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:03:30,828 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:03:30,828 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:03:49,534 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:03:49,535 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:03:49,535 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:03:49,785 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:03:49,785 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:03:49,785 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:03:50,343 — plugin.architecture — ERROR — collect:49 — error in processing data, HTTP status code: 403
+2024-12-02 14:04:58,932 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:04:58,932 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:04:58,932 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:04:59,205 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:04:59,205 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:04:59,206 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:04:59,741 — plugin.architecture — ERROR — collect:50 — error in processing data, HTTP status code: 403
+2024-12-02 14:06:49,617 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:06:49,617 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:06:49,617 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:06:49,903 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:06:49,903 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:06:49,904 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:06:50,438 — plugin.architecture — ERROR — collect:50 — error in processing data, HTTP status code: 403
+2024-12-02 14:06:50,438 — plugin.architecture — ERROR — collect:53 — error in processing data, reason: The credentials were incorrect or the account specified has been locked.
+2024-12-02 14:06:50,440 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 14:06:50,440 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 14:09:07,423 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:09:07,424 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:09:07,424 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:09:07,617 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:09:07,617 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:09:07,617 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:09:08,143 — plugin.architecture — ERROR — collect:50 — error in processing data, HTTP status code: 403
+2024-12-02 14:09:08,144 — plugin.architecture — ERROR — collect:53 — error in processing data, reason: The credentials were incorrect or the account specified has been locked.
+2024-12-02 14:09:08,148 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 14:09:08,148 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 14:10:35,553 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:10:35,553 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:10:35,554 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:10:35,746 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:10:35,747 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:10:35,748 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:10:36,278 — plugin.architecture — ERROR — collect:50 — error in processing data, HTTP status code: 403
+2024-12-02 14:10:36,278 — plugin.architecture — ERROR — collect:53 — error in processing data, reason: The credentials were incorrect or the account specified has been locked.
+2024-12-02 14:10:36,281 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 14:10:36,281 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 14:11:55,449 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:11:55,449 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:11:55,450 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:11:55,655 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:11:55,655 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:11:55,656 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:11:56,180 — plugin.architecture — ERROR — collect:50 — error in processing data, HTTP status code: 403
+2024-12-02 14:11:56,180 — plugin.architecture — ERROR — collect:53 — error in processing data, reason: The credentials were incorrect or the account specified has been locked.
+2024-12-02 14:11:56,184 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 14:11:56,184 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 14:13:38,762 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:13:38,763 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:13:38,763 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:13:39,011 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:13:39,011 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:13:39,012 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:13:39,572 — plugin.architecture — ERROR — collect:50 — error in processing data, HTTP status code: 403
+2024-12-02 14:13:39,572 — plugin.architecture — ERROR — collect:53 — error in processing data, reason: The credentials were incorrect or the account specified has been locked.
+2024-12-02 14:13:39,575 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 14:13:39,575 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 14:18:07,896 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:18:07,896 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:18:07,897 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:18:08,169 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:18:08,169 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:18:08,170 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:18:08,706 — plugin.architecture — ERROR — collect:50 — error in processing data, HTTP status code: 403
+2024-12-02 14:18:08,706 — plugin.architecture — ERROR — collect:53 — error in processing data, reason: The credentials were incorrect or the account specified has been locked.
+2024-12-02 14:18:08,709 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 14:18:08,709 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 14:18:35,321 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:18:35,321 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:18:35,321 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:18:35,546 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:18:35,546 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:18:35,547 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:18:36,112 — plugin.architecture — ERROR — collect:50 — error in processing data, HTTP status code: 403
+2024-12-02 14:18:36,112 — plugin.architecture — ERROR — collect:53 — error in processing data, reason: The credentials were incorrect or the account specified has been locked.
+2024-12-02 14:18:36,115 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 14:18:36,116 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 14:19:03,043 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:19:03,044 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:19:03,044 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:19:03,249 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:19:03,249 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:19:03,250 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:19:03,805 — plugin.architecture — ERROR — collect:50 — error in processing data, HTTP status code: 403
+2024-12-02 14:19:03,805 — plugin.architecture — ERROR — collect:53 — error in processing data, reason: The credentials were incorrect or the account specified has been locked.
+2024-12-02 14:19:03,808 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 14:19:03,808 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 14:20:17,491 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:20:17,491 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:20:17,492 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:20:17,720 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:20:17,720 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:20:17,721 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:20:18,251 — plugin.architecture — ERROR — collect:50 — error in processing data, HTTP status code: 403
+2024-12-02 14:20:18,251 — plugin.architecture — ERROR — collect:53 — error in processing data, reason: The credentials were incorrect or the account specified has been locked.
+2024-12-02 14:20:18,253 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 14:20:18,254 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 14:21:20,437 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:21:20,438 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:21:20,438 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:21:20,633 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:21:20,634 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:21:20,634 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:21:21,329 — plugin.architecture — ERROR — collect:50 — error in processing data, HTTP status code: 403
+2024-12-02 14:21:21,330 — plugin.architecture — ERROR — collect:53 — error in processing data, reason: The credentials were incorrect or the account specified has been locked.
+2024-12-02 14:21:21,333 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 14:21:21,333 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 14:21:33,375 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:21:33,375 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:21:33,376 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:21:33,614 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:21:33,614 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:21:33,615 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:21:34,146 — plugin.architecture — ERROR — collect:50 — error in processing data, HTTP status code: 403
+2024-12-02 14:21:34,147 — plugin.architecture — ERROR — collect:53 — error in processing data, reason: The credentials were incorrect or the account specified has been locked.
+2024-12-02 14:21:34,150 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 14:21:34,150 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 14:24:00,712 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:24:00,712 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:24:00,712 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:24:00,973 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:24:00,973 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:24:00,974 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:24:01,508 — plugin.architecture — ERROR — collect:50 — error in processing data, HTTP status code: 403
+2024-12-02 14:24:01,508 — plugin.architecture — ERROR — collect:53 — error in processing data, reason: The credentials were incorrect or the account specified has been locked.
+2024-12-02 14:24:01,511 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 14:24:01,512 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 14:25:46,123 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:25:46,124 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:25:46,124 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:25:46,319 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:25:46,320 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:25:46,320 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:25:46,844 — plugin.architecture — ERROR — collect:50 — error in processing data, HTTP status code: 403
+2024-12-02 14:25:46,845 — plugin.architecture — ERROR — collect:53 — error in processing data, reason: The credentials were incorrect or the account specified has been locked.
+2024-12-02 14:25:46,848 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 14:25:46,849 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 14:28:58,118 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:28:58,119 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:28:58,119 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:28:58,380 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:28:58,380 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:28:58,381 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:28:58,938 — plugin.architecture — ERROR — collect:50 — error in processing data, HTTP status code: 403
+2024-12-02 14:28:58,938 — plugin.architecture — ERROR — collect:53 — error in processing data, reason: The credentials were incorrect or the account specified has been locked.
+2024-12-02 14:28:58,942 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 14:28:58,942 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 14:29:09,074 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:29:09,074 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:29:09,075 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:29:09,278 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:29:09,278 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:29:09,279 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:29:09,834 — plugin.architecture — ERROR — collect:50 — error in processing data, HTTP status code: 403
+2024-12-02 14:29:09,835 — plugin.architecture — ERROR — collect:53 — error in processing data, reason: The credentials were incorrect or the account specified has been locked.
+2024-12-02 14:29:09,837 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 14:29:09,837 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 14:31:09,524 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:31:09,524 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:31:09,524 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:31:09,769 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:31:09,770 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:31:09,771 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:31:10,305 — plugin.architecture — ERROR — collect:50 — error in processing data, HTTP status code: 403
+2024-12-02 14:31:10,305 — plugin.architecture — ERROR — collect:53 — error in processing data, reason: The credentials were incorrect or the account specified has been locked.
+2024-12-02 14:31:10,308 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 14:31:10,309 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 14:37:48,743 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:37:48,743 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:37:48,743 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:37:48,954 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:37:48,954 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:37:48,955 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:37:49,631 — plugin.architecture — INFO — collect:46 — status- 200
+2024-12-02 14:37:49,631 — plugin.architecture — INFO — collect:50 — {'interface_policy_path': '/infra/tier-0s/Border-T0/locale-services/default/interfaces/edge01-uplink1', 'last_update_timestamp': 1733146117786, 'rx': {'total_bytes': 10688239158470, 'total_packets': 27571307208, 'dropped_packets': 13655287, 'blocked_packets': 0, 'destination_unsupported_dropped_packets': 13640348, 'firewall_dropped_packets': 0, 'ipsec_dropped_packets': 0, 'ipsec_no_sa_dropped_packets': 0, 'ipsec_no_vti_dropped_packets': 0, 'ipv6_dropped_packets': 0, 'kni_dropped_packets': 0, 'l4port_unsupported_dropped_packets': 0, 'malformed_dropped_packets': 13203, 'no_receiver_dropped_packets': 0, 'no_route_dropped_packets': 0, 'proto_unsupported_dropped_packets': 1734, 'redirect_dropped_packets': 0, 'rpf_check_dropped_packets': 2, 'ttl_exceeded_dropped_packets': 0}, 'tx': {'total_bytes': 49547113021011, 'total_packets': 36602896456, 'dropped_packets': 32, 'blocked_packets': 0, 'firewall_dropped_packets': 0, 'ipsec_dropped_packets': 0, 'ipsec_no_sa_dropped_packets': 0, 'ipsec_no_vti_dropped_packets': 0, 'dad_dropped_packets': 0, 'frag_needed_dropped_packets': 0, 'ipsec_pol_block_dropped_packets': 0, 'ipsec_pol_err_dropped_packets': 0, 'no_arp_dropped_packets': 32, 'no_linked_dropped_packets': 0, 'no_mem_dropped_packets': 0, 'non_ip_dropped_packets': 0, 'service_insert_dropped_packets': 0}, 'logical_router_port_id': 'bbb11d52-00e8-445e-9d3a-e8789d9e9e63'}
+2024-12-02 14:37:49,635 — plugin.architecture — INFO — transform:66 — started transform on data {'interface_policy_path': '/infra/tier-0s/Border-T0/locale-services/default/interfaces/edge01-uplink1', 'last_update_timestamp': 1733146117786, 'rx': {'total_bytes': 10688239158470, 'total_packets': 27571307208, 'dropped_packets': 13655287, 'blocked_packets': 0, 'destination_unsupported_dropped_packets': 13640348, 'firewall_dropped_packets': 0, 'ipsec_dropped_packets': 0, 'ipsec_no_sa_dropped_packets': 0, 'ipsec_no_vti_dropped_packets': 0, 'ipv6_dropped_packets': 0, 'kni_dropped_packets': 0, 'l4port_unsupported_dropped_packets': 0, 'malformed_dropped_packets': 13203, 'no_receiver_dropped_packets': 0, 'no_route_dropped_packets': 0, 'proto_unsupported_dropped_packets': 1734, 'redirect_dropped_packets': 0, 'rpf_check_dropped_packets': 2, 'ttl_exceeded_dropped_packets': 0}, 'tx': {'total_bytes': 49547113021011, 'total_packets': 36602896456, 'dropped_packets': 32, 'blocked_packets': 0, 'firewall_dropped_packets': 0, 'ipsec_dropped_packets': 0, 'ipsec_no_sa_dropped_packets': 0, 'ipsec_no_vti_dropped_packets': 0, 'dad_dropped_packets': 0, 'frag_needed_dropped_packets': 0, 'ipsec_pol_block_dropped_packets': 0, 'ipsec_pol_err_dropped_packets': 0, 'no_arp_dropped_packets': 32, 'no_linked_dropped_packets': 0, 'no_mem_dropped_packets': 0, 'non_ip_dropped_packets': 0, 'service_insert_dropped_packets': 0}, 'logical_router_port_id': 'bbb11d52-00e8-445e-9d3a-e8789d9e9e63'}
+2024-12-02 14:38:31,634 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:38:31,634 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:38:31,635 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:38:31,849 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:38:31,849 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:38:31,850 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 14:38:32,527 — plugin.architecture — INFO — collect:45 — status- 200
+2024-12-02 14:38:32,527 — plugin.architecture — INFO — collect:49 — {'interface_policy_path': '/infra/tier-0s/Border-T0/locale-services/default/interfaces/edge01-uplink1', 'last_update_timestamp': 1733146117786, 'rx': {'total_bytes': 10688239158470, 'total_packets': 27571307208, 'dropped_packets': 13655287, 'blocked_packets': 0, 'destination_unsupported_dropped_packets': 13640348, 'firewall_dropped_packets': 0, 'ipsec_dropped_packets': 0, 'ipsec_no_sa_dropped_packets': 0, 'ipsec_no_vti_dropped_packets': 0, 'ipv6_dropped_packets': 0, 'kni_dropped_packets': 0, 'l4port_unsupported_dropped_packets': 0, 'malformed_dropped_packets': 13203, 'no_receiver_dropped_packets': 0, 'no_route_dropped_packets': 0, 'proto_unsupported_dropped_packets': 1734, 'redirect_dropped_packets': 0, 'rpf_check_dropped_packets': 2, 'ttl_exceeded_dropped_packets': 0}, 'tx': {'total_bytes': 49547113021011, 'total_packets': 36602896456, 'dropped_packets': 32, 'blocked_packets': 0, 'firewall_dropped_packets': 0, 'ipsec_dropped_packets': 0, 'ipsec_no_sa_dropped_packets': 0, 'ipsec_no_vti_dropped_packets': 0, 'dad_dropped_packets': 0, 'frag_needed_dropped_packets': 0, 'ipsec_pol_block_dropped_packets': 0, 'ipsec_pol_err_dropped_packets': 0, 'no_arp_dropped_packets': 32, 'no_linked_dropped_packets': 0, 'no_mem_dropped_packets': 0, 'non_ip_dropped_packets': 0, 'service_insert_dropped_packets': 0}, 'logical_router_port_id': 'bbb11d52-00e8-445e-9d3a-e8789d9e9e63'}
+2024-12-02 14:38:32,531 — plugin.architecture — INFO — transform:65 — started transform on data {'interface_policy_path': '/infra/tier-0s/Border-T0/locale-services/default/interfaces/edge01-uplink1', 'last_update_timestamp': 1733146117786, 'rx': {'total_bytes': 10688239158470, 'total_packets': 27571307208, 'dropped_packets': 13655287, 'blocked_packets': 0, 'destination_unsupported_dropped_packets': 13640348, 'firewall_dropped_packets': 0, 'ipsec_dropped_packets': 0, 'ipsec_no_sa_dropped_packets': 0, 'ipsec_no_vti_dropped_packets': 0, 'ipv6_dropped_packets': 0, 'kni_dropped_packets': 0, 'l4port_unsupported_dropped_packets': 0, 'malformed_dropped_packets': 13203, 'no_receiver_dropped_packets': 0, 'no_route_dropped_packets': 0, 'proto_unsupported_dropped_packets': 1734, 'redirect_dropped_packets': 0, 'rpf_check_dropped_packets': 2, 'ttl_exceeded_dropped_packets': 0}, 'tx': {'total_bytes': 49547113021011, 'total_packets': 36602896456, 'dropped_packets': 32, 'blocked_packets': 0, 'firewall_dropped_packets': 0, 'ipsec_dropped_packets': 0, 'ipsec_no_sa_dropped_packets': 0, 'ipsec_no_vti_dropped_packets': 0, 'dad_dropped_packets': 0, 'frag_needed_dropped_packets': 0, 'ipsec_pol_block_dropped_packets': 0, 'ipsec_pol_err_dropped_packets': 0, 'no_arp_dropped_packets': 32, 'no_linked_dropped_packets': 0, 'no_mem_dropped_packets': 0, 'non_ip_dropped_packets': 0, 'service_insert_dropped_packets': 0}, 'logical_router_port_id': 'bbb11d52-00e8-445e-9d3a-e8789d9e9e63'}
+2024-12-02 14:39:23,572 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:39:23,588 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:39:23,589 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:39:23,800 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:39:23,801 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:39:23,801 — plugin.architecture — INFO — collect:28 — https://10.192.108.3
+2024-12-02 14:39:24,466 — plugin.architecture — INFO — collect:43 — status- 200
+2024-12-02 14:39:24,466 — plugin.architecture — INFO — collect:47 — {'interface_policy_path': '/infra/tier-0s/Border-T0/locale-services/default/interfaces/edge01-uplink1', 'last_update_timestamp': 1733146417891, 'rx': {'total_bytes': 10688297848204, 'total_packets': 27571542624, 'dropped_packets': 13655505, 'blocked_packets': 0, 'destination_unsupported_dropped_packets': 13640566, 'firewall_dropped_packets': 0, 'ipsec_dropped_packets': 0, 'ipsec_no_sa_dropped_packets': 0, 'ipsec_no_vti_dropped_packets': 0, 'ipv6_dropped_packets': 0, 'kni_dropped_packets': 0, 'l4port_unsupported_dropped_packets': 0, 'malformed_dropped_packets': 13203, 'no_receiver_dropped_packets': 0, 'no_route_dropped_packets': 0, 'proto_unsupported_dropped_packets': 1734, 'redirect_dropped_packets': 0, 'rpf_check_dropped_packets': 2, 'ttl_exceeded_dropped_packets': 0}, 'tx': {'total_bytes': 49547782355352, 'total_packets': 36603353400, 'dropped_packets': 32, 'blocked_packets': 0, 'firewall_dropped_packets': 0, 'ipsec_dropped_packets': 0, 'ipsec_no_sa_dropped_packets': 0, 'ipsec_no_vti_dropped_packets': 0, 'dad_dropped_packets': 0, 'frag_needed_dropped_packets': 0, 'ipsec_pol_block_dropped_packets': 0, 'ipsec_pol_err_dropped_packets': 0, 'no_arp_dropped_packets': 32, 'no_linked_dropped_packets': 0, 'no_mem_dropped_packets': 0, 'non_ip_dropped_packets': 0, 'service_insert_dropped_packets': 0}, 'logical_router_port_id': 'bbb11d52-00e8-445e-9d3a-e8789d9e9e63'}
+2024-12-02 14:39:24,470 — plugin.architecture — INFO — transform:63 — started transform on data {'interface_policy_path': '/infra/tier-0s/Border-T0/locale-services/default/interfaces/edge01-uplink1', 'last_update_timestamp': 1733146417891, 'rx': {'total_bytes': 10688297848204, 'total_packets': 27571542624, 'dropped_packets': 13655505, 'blocked_packets': 0, 'destination_unsupported_dropped_packets': 13640566, 'firewall_dropped_packets': 0, 'ipsec_dropped_packets': 0, 'ipsec_no_sa_dropped_packets': 0, 'ipsec_no_vti_dropped_packets': 0, 'ipv6_dropped_packets': 0, 'kni_dropped_packets': 0, 'l4port_unsupported_dropped_packets': 0, 'malformed_dropped_packets': 13203, 'no_receiver_dropped_packets': 0, 'no_route_dropped_packets': 0, 'proto_unsupported_dropped_packets': 1734, 'redirect_dropped_packets': 0, 'rpf_check_dropped_packets': 2, 'ttl_exceeded_dropped_packets': 0}, 'tx': {'total_bytes': 49547782355352, 'total_packets': 36603353400, 'dropped_packets': 32, 'blocked_packets': 0, 'firewall_dropped_packets': 0, 'ipsec_dropped_packets': 0, 'ipsec_no_sa_dropped_packets': 0, 'ipsec_no_vti_dropped_packets': 0, 'dad_dropped_packets': 0, 'frag_needed_dropped_packets': 0, 'ipsec_pol_block_dropped_packets': 0, 'ipsec_pol_err_dropped_packets': 0, 'no_arp_dropped_packets': 32, 'no_linked_dropped_packets': 0, 'no_mem_dropped_packets': 0, 'non_ip_dropped_packets': 0, 'service_insert_dropped_packets': 0}, 'logical_router_port_id': 'bbb11d52-00e8-445e-9d3a-e8789d9e9e63'}
+2024-12-02 14:41:07,185 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 14:41:07,186 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 14:41:07,186 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 14:41:07,394 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 14:41:07,394 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 14:41:07,394 — plugin.architecture — INFO — collect:28 — https://10.192.108.3
+2024-12-02 14:41:08,048 — plugin.architecture — INFO — collect:43 — status: 200
+2024-12-02 14:41:08,051 — plugin.architecture — INFO — transform:63 — started transform on data {'interface_policy_path': '/infra/tier-0s/Border-T0/locale-services/default/interfaces/edge01-uplink1', 'last_update_timestamp': 1733146417891, 'rx': {'total_bytes': 10688297848204, 'total_packets': 27571542624, 'dropped_packets': 13655505, 'blocked_packets': 0, 'destination_unsupported_dropped_packets': 13640566, 'firewall_dropped_packets': 0, 'ipsec_dropped_packets': 0, 'ipsec_no_sa_dropped_packets': 0, 'ipsec_no_vti_dropped_packets': 0, 'ipv6_dropped_packets': 0, 'kni_dropped_packets': 0, 'l4port_unsupported_dropped_packets': 0, 'malformed_dropped_packets': 13203, 'no_receiver_dropped_packets': 0, 'no_route_dropped_packets': 0, 'proto_unsupported_dropped_packets': 1734, 'redirect_dropped_packets': 0, 'rpf_check_dropped_packets': 2, 'ttl_exceeded_dropped_packets': 0}, 'tx': {'total_bytes': 49547782355352, 'total_packets': 36603353400, 'dropped_packets': 32, 'blocked_packets': 0, 'firewall_dropped_packets': 0, 'ipsec_dropped_packets': 0, 'ipsec_no_sa_dropped_packets': 0, 'ipsec_no_vti_dropped_packets': 0, 'dad_dropped_packets': 0, 'frag_needed_dropped_packets': 0, 'ipsec_pol_block_dropped_packets': 0, 'ipsec_pol_err_dropped_packets': 0, 'no_arp_dropped_packets': 32, 'no_linked_dropped_packets': 0, 'no_mem_dropped_packets': 0, 'non_ip_dropped_packets': 0, 'service_insert_dropped_packets': 0}, 'logical_router_port_id': 'bbb11d52-00e8-445e-9d3a-e8789d9e9e63'}
+2024-12-02 15:23:20,066 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 15:23:20,067 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 15:23:20,067 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 15:23:20,271 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 15:23:20,271 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 15:23:20,272 — plugin.architecture — INFO — collect:28 — https://10.192.108.3
+2024-12-02 15:23:20,993 — plugin.architecture — INFO — collect:43 — status: 200
+2024-12-02 15:23:20,997 — plugin.architecture — INFO — transform:63 — started transform on data {'interface_policy_path': '/infra/tier-0s/Border-T0/locale-services/default/interfaces/edge01-uplink1', 'last_update_timestamp': 1733148817533, 'rx': {'total_bytes': 10688669326044, 'total_packets': 27573201187, 'dropped_packets': 13657256, 'blocked_packets': 0, 'destination_unsupported_dropped_packets': 13642315, 'firewall_dropped_packets': 0, 'ipsec_dropped_packets': 0, 'ipsec_no_sa_dropped_packets': 0, 'ipsec_no_vti_dropped_packets': 0, 'ipv6_dropped_packets': 0, 'kni_dropped_packets': 0, 'l4port_unsupported_dropped_packets': 0, 'malformed_dropped_packets': 13205, 'no_receiver_dropped_packets': 0, 'no_route_dropped_packets': 0, 'proto_unsupported_dropped_packets': 1734, 'redirect_dropped_packets': 0, 'rpf_check_dropped_packets': 2, 'ttl_exceeded_dropped_packets': 0}, 'tx': {'total_bytes': 49552879982053, 'total_packets': 36606832309, 'dropped_packets': 32, 'blocked_packets': 0, 'firewall_dropped_packets': 0, 'ipsec_dropped_packets': 0, 'ipsec_no_sa_dropped_packets': 0, 'ipsec_no_vti_dropped_packets': 0, 'dad_dropped_packets': 0, 'frag_needed_dropped_packets': 0, 'ipsec_pol_block_dropped_packets': 0, 'ipsec_pol_err_dropped_packets': 0, 'no_arp_dropped_packets': 32, 'no_linked_dropped_packets': 0, 'no_mem_dropped_packets': 0, 'non_ip_dropped_packets': 0, 'service_insert_dropped_packets': 0}, 'logical_router_port_id': 'bbb11d52-00e8-445e-9d3a-e8789d9e9e63'}
+2024-12-02 15:24:14,648 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 15:24:14,648 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 15:24:14,648 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 15:24:14,889 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 15:24:14,889 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 15:24:14,889 — plugin.architecture — INFO — collect:28 — https://10.192.108.3
+2024-12-02 15:24:15,529 — plugin.architecture — INFO — collect:43 — status: 200
+2024-12-02 15:24:15,534 — plugin.architecture — INFO — transform:65 — started transform on data {'interface_policy_path': '/infra/tier-0s/Border-T0/locale-services/default/interfaces/edge01-uplink1', 'last_update_timestamp': 1733149114656, 'rx': {'total_bytes': 10688711354375, 'total_packets': 27573400202, 'dropped_packets': 13657472, 'blocked_packets': 0, 'destination_unsupported_dropped_packets': 13642531, 'firewall_dropped_packets': 0, 'ipsec_dropped_packets': 0, 'ipsec_no_sa_dropped_packets': 0, 'ipsec_no_vti_dropped_packets': 0, 'ipv6_dropped_packets': 0, 'kni_dropped_packets': 0, 'l4port_unsupported_dropped_packets': 0, 'malformed_dropped_packets': 13205, 'no_receiver_dropped_packets': 0, 'no_route_dropped_packets': 0, 'proto_unsupported_dropped_packets': 1734, 'redirect_dropped_packets': 0, 'rpf_check_dropped_packets': 2, 'ttl_exceeded_dropped_packets': 0}, 'tx': {'total_bytes': 49553493535910, 'total_packets': 36607251070, 'dropped_packets': 32, 'blocked_packets': 0, 'firewall_dropped_packets': 0, 'ipsec_dropped_packets': 0, 'ipsec_no_sa_dropped_packets': 0, 'ipsec_no_vti_dropped_packets': 0, 'dad_dropped_packets': 0, 'frag_needed_dropped_packets': 0, 'ipsec_pol_block_dropped_packets': 0, 'ipsec_pol_err_dropped_packets': 0, 'no_arp_dropped_packets': 32, 'no_linked_dropped_packets': 0, 'no_mem_dropped_packets': 0, 'non_ip_dropped_packets': 0, 'service_insert_dropped_packets': 0}, 'logical_router_port_id': 'bbb11d52-00e8-445e-9d3a-e8789d9e9e63'}
+2024-12-02 15:46:48,698 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 15:46:48,698 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 15:46:48,699 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 15:46:48,989 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 15:46:48,990 — plugin.architecture — INFO — collect:23 — NSX custom API started collect()
+2024-12-02 15:46:48,990 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 15:46:49,618 — plugin.architecture — INFO — collect:44 — status: 200
+2024-12-02 15:46:49,622 — plugin.architecture — INFO — transform:74 — started transform on data {'labels': {'instance': '10.192.108.3:Border-T0:edge01-uplink1', 'name': 'Border-T0:edge01-uplink1', 'timestampt': 1733150318050, 'value': 13206, 'nsx_instance': '10.192.108.3', 'metric_type': 'rx_malformed_dropped_packets'}}
+2024-12-02 15:46:49,622 — plugin.architecture — INFO — transform:98 — transform completed
+2024-12-02 15:46:49,622 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 15:46:49,622 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 15:46:49,637 — plugin.architecture — INFO — __invoke_on_plugins:48 — Loaded device: None

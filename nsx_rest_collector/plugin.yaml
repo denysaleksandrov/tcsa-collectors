@@ -1,0 +1,11 @@
+alias: nsx-rest-collector
+creator: admin
+description: rest collector package
+name: nsx-rest-collector
+repository: ''
+requirements: []
+runtime:
+  main: rest_collector.py
+  tests:
+  - test/core.py
+version: 0.0.1

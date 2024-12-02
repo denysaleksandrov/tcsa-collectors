@@ -1,8 +1,6 @@
 {
-  "host": "https://10.192.108.3",
+  "host": "http://127.0.0.1:8080",
   "verify_ssl": false,
-  "username": "admin",
-  "password": "VMware1!VMware1!",
   "sink": {
     "topic": "vsa_metrics_raw",
     "properties": {

@@ -1,7 +1,7 @@
 {
-  "name" : "kafka-collector",
-  "description" : "kafka collector package",
-  "entrypoint" : "kafka_collector.py",
+  "name" : "nsx-rest-collector",
+  "description" : "rest collector package",
+  "entrypoint" : "rest_collector.py",
   "version" : "0.0.1",
   "creator" : "admin",
   "tests" : ["test/core.py"]

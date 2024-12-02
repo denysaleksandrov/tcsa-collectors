@@ -1,0 +1,22 @@
+{
+    "instance": "10.192.108.3:Border-T0:edge01-uplink1",
+    "metricType": "rx_malformed_dropped_packets",
+    "metrics": {
+        "sample": 13206
+    },
+    "processedTimestamp": null,
+    "properties": {
+        "dataSource": "10.192.108.3",
+        "deviceName": "Border-T0:edge01-uplink1",
+        "deviceType": "nsxEdge",
+        "entityName": "Border-T0:edge01-uplink1",
+        "entityType": "DURABLE",
+        "ip": "10.192.108.3"
+    },
+    "tags": {
+        "deviceName": "10.192.108.3:Border-T0:edge01-uplink1",
+        "tag1": "Custom Tag"
+    },
+    "timestamp": null,
+    "type": "Rest-Custom-Collector"
+}
