@@ -1,0 +1,8 @@
+{
+  "host": "http://127.0.0.1:8080",
+  "verify_ssl": false,
+  "username": "admin",
+  "password": "changeme",
+  "assert_hostname": "127.0.0.1",
+  "ssl_ca_cert":"/Users/user/Desktop/example.cert"
+}

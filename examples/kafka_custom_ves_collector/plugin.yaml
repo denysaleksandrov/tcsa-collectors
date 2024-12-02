@@ -1,0 +1,11 @@
+alias: kafka-collector
+creator: admin
+description: kafka collector package
+name: kafka-collector
+repository: ''
+requirements: []
+runtime:
+  main: kafka_collector.py
+  tests:
+  - test/core.py
+version: 0.0.1

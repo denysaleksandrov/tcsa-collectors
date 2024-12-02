@@ -1,0 +1,20 @@
+{
+	"type": "$.event.commonEventHeader.domain",
+	"metricType": "$.event.commonEventHeader.domain",
+	"instance": "$.event.commonEventHeader.reportingEntityId",
+	"timestamp": "$.event.commonEventHeader.startEpochMicrosec",
+	"processedTimestamp": "$.event.commonEventHeader.lastEpochMicrosec",
+	"properties.entityName": "$.event.commonEventHeader.eventName",
+	"properties.dataSource": "$.event.commonEventHeader.sourceName",
+	"properties.deviceName": "$.event.commonEventHeader.sourceName",
+	"properties.entityType": "$.event.commonEventHeader.nfNamingCode",
+	"properties.deviceType": "$.event.commonEventHeader.nfNamingCode",
+	"properties.ip": "$.event.commonEventHeader.eventId",
+	"metrics.$['event']['measurementFields']['cpuUsageArray'][*]['cpuIdentifier']": "$.event.measurementFields.cpuUsageArray[*].percentUsage",
+	"metrics.$['event']['measurementFields']['memoryUsageArray'][*]['vmIdentifier']": "$.event.measurementFields.memoryUsageArray[*].memoryUsed",
+	"metrics.$['event']['measurementFields']['nicPerformanceArray'][*]['nicIdentifier']": {
+		"receivedTotalPacketsDelta": "$.event.measurementFields.nicPerformanceArray[*].receivedTotalPacketsDelta",
+		"transmittedTotalPacketsDelta": "$.event.measurementFields.nicPerformanceArray[*].transmittedTotalPacketsDelta"
+	},
+	"tags.customer": ""
+}

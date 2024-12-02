@@ -1,0 +1,14 @@
+{
+  "name" : "saankya_events_restconf",
+  "dcName" : "_core",
+  "num_workers": 2,
+  "port": "8085",
+  "url": "saankyaevents",
+  "PortBindings": {"8085/tcp": "8085"},
+  "sink": {
+    "topic": "vsa_events_raw",
+    "properties": {
+      "bootstrap_servers": "edge-kafka-bootstrap:9093"
+    }
+  }
+}

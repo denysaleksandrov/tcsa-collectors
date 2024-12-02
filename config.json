@@ -1,0 +1,14 @@
+{
+  "bootstrap_server": "localhost:9092",
+  "num_workers": 1,
+  "topic_name": "topic-mnrdata",
+  "group_id": "sample_group",
+  "auto_offset_reset": "latest",
+  "num_threads": 4,
+  "sink": {
+    "topic": "output-events",
+    "properties": {
+      "bootstrap_servers": "edge-kafka-bootstrap:9093"
+    }
+  }
+}

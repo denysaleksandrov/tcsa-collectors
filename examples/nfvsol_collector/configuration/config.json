@@ -1,0 +1,12 @@
+{
+  "host": "http://10.62.84.89:8080",
+  "verify_ssl": false,
+  "username": "admin",
+  "password": "admin",
+  "sink": {
+    "topic": "inv_topo",
+    "properties": {
+      "bootstrap_servers": "internal-kafka-bootstrap:9092"
+    }
+  }
+}

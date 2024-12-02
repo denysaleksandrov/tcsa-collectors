@@ -1,0 +1,98 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "connect": {
+      "description": "config for device connection ",
+      "type": "object",
+      "title": "Connection Properties",
+      "properties": {
+        "host": {
+          "description": "Host name of the adapter",
+          "type": "string",
+          "title": "Host Name"
+        },
+        "port": {
+          "description": "netconf server port",
+          "type": "string",
+          "title": "Netconf Port"
+        },
+        "username": {
+          "description": "The netconf user name",
+          "type": "string",
+          "title": "Netconf Username"
+        },
+        "password": {
+          "description": "The netconf password",
+          "type": "string",
+          "title": "Netconf Password",
+          "format": "password"
+        },
+        "gateway": {
+          "description": "config for device connection ",
+          "type": "object",
+          "title": "Gateway Connection Properties",
+          "properties": {
+            "enabled": {
+              "description": "The key for the gateway ",
+              "type": "boolean",
+              "title": "Gateway Enabled",
+              "default": false
+            },
+            "host": {
+              "description": "Host name of the gateway",
+              "type": "string",
+              "title": "Gateway Host Name",
+              "default": ""
+            },
+            "username": {
+              "description": "The gateway user name",
+              "type": "string",
+              "title": "Gateway Username",
+              "default": ""
+            },
+            "key": {
+              "description": "The key for the gateway ",
+              "type": "string",
+              "title": "Gateway Key",
+              "default": ""
+            }
+          }
+        }
+      },
+      "required": [
+        "host", "port", "username", "password"
+      ]
+    },
+    "sink": {
+      "description": "This is the destination kafka details ",
+      "type": "object",
+      "title": "Sink Properties",
+      "properties": {
+        "topic": {
+          "description": "The topic to publish output Data",
+          "type": "string",
+          "title": "Topic Name",
+          "default": "vsa_events_raw"
+        },
+        "properties": {
+          "description": "Destination kafka details",
+          "type": "object",
+          "title": "Properties",
+          "properties": {
+            "bootstrap_servers": {
+              "description": "Destination kafka Server address",
+              "type": "string",
+              "title": "Destination kafka address",
+              "default": "edge-kafka-bootstrap:9093"
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "sink",
+    "connect"
+  ]
+}

@@ -1,0 +1,11 @@
+alias: netconf-collector
+creator: admin
+description: Netconf Collector to process notification from Commscope DAS Mediator
+name: commscope-das
+repository: ''
+requirements: []
+runtime:
+  main: netconf_collector.py
+  tests:
+  - test/core.py
+version: 0.0.1

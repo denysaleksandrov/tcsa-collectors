@@ -1,0 +1,10 @@
+{
+	"Source": "$.event.commonEventHeader.sourceName",
+	"InstanceName": "$.event.commonEventHeader.eventName",
+	"Timestamp": "$.event.commonEventHeader.startEpochMicrosec",
+	"ProcessedTimeStamp": "$.event.commonEventHeader.lastEpochMicrosec",
+	"Name": "$.event.faultFields.alarmCondition",
+	"State": "$.event.faultFields.vfStatus",
+	"Severity": "$.event.faultFields.eventSeverity",
+	"tags.customer" : "$.event.faultFields.specificProblem"
+}

@@ -1,0 +1,14 @@
+{
+    "metricType":"vran",
+    "instance":"mavenir-metrics",
+    "properties.entityName":"$.labels.app",
+    "properties.entityType":"app",
+    "processedTimestamp":"$.labels.timestamp",
+    "type":"KafkaCollector",
+    "properties.dataSource":"$.labels.instance",
+    "properties.deviceName":"$.labels.kubernetes_pod_name",
+    "metrics.$['labels']['__name__']":"$.labels.value",
+    "timestamp":"$.labels.timestamp",
+    "properties.deviceType":"$.labels.app",
+    "tags.customer":""
+}

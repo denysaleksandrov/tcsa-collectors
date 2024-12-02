@@ -1,0 +1,8 @@
+{
+  "name" : "topology_kafka_collector",
+  "description" : "topology_kafka_collector",
+  "entrypoint" : "topology_kafka_collector.py",
+  "version" : "0.0.1",
+  "creator" : "admin",
+  "tests" : []
+}

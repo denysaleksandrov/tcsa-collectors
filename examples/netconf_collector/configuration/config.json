@@ -1,0 +1,22 @@
+{
+  "name" : "commscope",
+  "dcName" : "_core",
+  "connect": {
+    "host": "commscope",
+    "port": "22",
+    "username": "admin",
+    "password": "admin",
+    "gateway": {
+      "host": "gateway",
+      "username": "admin",
+      "key": "base64encodedstring",
+      "enabled": false
+    }
+  },
+  "sink": {
+    "topic": "vsa_events_raw",
+    "properties": {
+      "bootstrap_servers": "edge-kafka-bootstrap:9093"
+    }
+  }
+}

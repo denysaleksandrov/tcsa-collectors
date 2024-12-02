@@ -1,0 +1,65 @@
+{
+  "name": "syslog",
+  "dcName": "_core",
+  "sink": {
+    "topic": "output-events",
+    "properties": {
+      "bootstrap_servers": "edge-kafka-bootstrap:9093"
+    }
+  },
+  "mode": {
+    "mode_type": "Listen",
+    "listen_settings": {
+      "PortBindings": {
+        "port": 2064,
+        "node_port": 30004,
+        "port_protocol": "udp"
+      },
+      "port_bind_type": "NodePort"
+    },
+    "query_settings": {
+      "host": "10.X.X.X",
+      "username": "root",
+      "password": "password",
+      "log_directory": "/var/log/syslog"
+    }
+  },
+  "notification_attributes": {
+    "category": ".*%(.*?)-.*",
+    "className": ".*%(.*?)-.*",
+    "eventName": ".*-(\\w+):.*Interface.*",
+    "eventState": "ACTIVE",
+    "eventText": ".*-(\\w+):.*",
+    "eventType": "MOMENTARY",
+    "instanceName": ".*:\\s*([^:]+)$.*",
+    "name": ".*:\\s*([^:]+)$.*",
+    "severity": ".*-(\\d+)-.*",
+    "source": "SYSLOG",
+    "timestamp": "^\\*(\\w{3}\\s+\\d{1,2}\\s\\d{2}:\\d{2}:\\d{2}\\.\\d{3})"
+  },
+  "user_defined_fields": {
+    "use_advancedsettings": false,
+    "settings": {
+      "userDefined1": "",
+      "userDefined2": "",
+      "userDefined3": "",
+      "userDefined4": "",
+      "userDefined5": "",
+      "userDefined6": "",
+      "userDefined7": "",
+      "userDefined8": "",
+      "userDefined9": "",
+      "userDefined10": "",
+      "userDefined11": "",
+      "userDefined12": "",
+      "userDefined13": "",
+      "userDefined14": "",
+      "userDefined15": "",
+      "userDefined16": "",
+      "userDefined17": "",
+      "userDefined18": "",
+      "userDefined19": "",
+      "userDefined20": ""
+    }
+  }
+}

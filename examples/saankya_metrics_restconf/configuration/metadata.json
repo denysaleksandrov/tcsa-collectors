@@ -1,0 +1,8 @@
+{
+  "name" : "saankya_metrics_restconf",
+  "description" : "Saankya O1 metrics Collector",
+  "entrypoint" : "saankya_metrics.py",
+  "version" : "0.0.1",
+  "creator" : "admin",
+  "tests" : []
+}

@@ -1,0 +1,11 @@
+alias: syslog
+creator: admin
+description: Syslog Collector package
+name: syslog
+repository: ''
+requirements: []
+runtime:
+  main: syslog_collector.py
+  tests:
+  - test/core.py
+version: 0.0.1

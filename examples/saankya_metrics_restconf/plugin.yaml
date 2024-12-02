@@ -1,0 +1,10 @@
+alias: saankya_metrics_restconf
+creator: admin
+description: saankya O1 metrics collector restconf
+name: saankya_metrics_restconf
+repository: ''
+requirements: []
+runtime:
+  main: saankya_metrics.py
+  tests: []
+version: 0.0.1

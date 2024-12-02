@@ -1,0 +1,8 @@
+{
+  "name" : "saankya_events_restconf",
+  "description" : "Saankya events O1 Collector",
+  "entrypoint" : "saankya_events.py",
+  "version" : "0.0.1",
+  "creator" : "admin",
+  "tests" : []
+}

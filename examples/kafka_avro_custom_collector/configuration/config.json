@@ -1,0 +1,17 @@
+{
+  "bootstrap_server": "http://127.0.0.1:9092",
+  "schema_registry_url": "http://127.0.0.1:8081",
+  "basic_auth_username": "user_name",
+  "basic_auth_password": "password",
+  "num_workers": 1,
+  "topic_name": "metrics",
+  "group_id": "sample_group",
+  "auto_offset_reset": "latest",
+  "num_threads": 4,
+  "sink": {
+    "topic": "vsa_metrics_raw",
+    "properties": {
+      "bootstrap_servers": "edge-kafka-bootstrap:9093"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+name: 'Sample collector'
+alias: 'sample-collector'
+creator: ''
+runtime:
+  main: 'kafka_collector.py'
+  tests:
+    - 'tests/core.py'
+repository: 'https://github.com/wax911/sample-plugin'
+description: 'Sample plugin template'
+version: '0.0.2'
+requirements:
+collector_config:
+  bootstrap_server: "10.168.169.71:9092"
+  group_id: "kafka_collector_sample-g1"
+  auto_offset_reset: "earliest"
+  topics: "kafka_collector_custom1"
+

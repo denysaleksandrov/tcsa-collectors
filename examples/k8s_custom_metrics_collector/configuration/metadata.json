@@ -1,0 +1,8 @@
+{
+  "name" : "k8s_custom_metrics_collector",
+  "description" : "k8s collector package",
+  "entrypoint" : "metrics_collector.py",
+  "version" : "0.0.1",
+  "creator" : "admin",
+  "tests" : ["test/core.py"]
+}

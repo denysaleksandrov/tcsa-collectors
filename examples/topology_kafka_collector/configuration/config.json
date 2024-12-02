@@ -1,0 +1,14 @@
+{
+  "bootstrap_server": "127.0.0.1:9092",
+  "num_workers": 1,
+  "topic_name": "topology_demo",
+  "group_id": "topology-kafka-collector-group2",
+  "auto_offset_reset": "latest",
+  "num_threads": 4,
+  "sink": {
+    "topic": "inv_topo",
+    "properties": {
+      "bootstrap_servers": "internal-kafka-bootstrap:9092"
+    }
+  }
+}

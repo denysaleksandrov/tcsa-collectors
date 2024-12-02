@@ -1,0 +1,11 @@
+alias: kafka-avro-custom-collector
+creator: admin
+description: kafka avro collector package
+name: kafka-avro-custom-collector
+repository: ''
+requirements: []
+runtime:
+  main: kafka_avro_custom_collector.py
+  tests:
+  - test/core.py
+version: 0.0.1

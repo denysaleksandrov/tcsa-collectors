@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "num_workers": {
+      "description": "The number of workers to handle input REST calls",
+      "type": "integer",
+      "title": "No of Worker Process",
+      "minimum": 1,
+      "maximum": 8,
+      "default": 1
+    },
+    "port": {
+      "description": "Port to configure for Nodeport",
+      "type": "string",
+      "title": "NodePort Port",
+      "default": "31517"
+    },
+    "url": {
+      "description": "REST URL endpoint",
+      "type": "string",
+      "title": "REST URL endpoint",
+      "default": "saankyaevents"
+    },
+    "PortBindings": {
+      "description": "PortBindings",
+      "type": "object",
+      "title": "PortBindings",
+      "properties": {
+        "8085/tcp": {
+          "description": "Collector Port",
+          "type": "string",
+          "title": "port"
+        }
+      }
+    },
+    "sink": {
+      "description": "This is the destination kafka details ",
+      "type": "object",
+      "title": "Sink Properties",
+      "properties": {
+        "topic": {
+          "description": "The topic to publish output Data",
+          "type": "string",
+          "title": "Topic Name",
+          "default": "vsa_events_raw"
+        },
+        "properties": {
+          "description": "Destination kafka details",
+          "type": "object",
+          "title": "Properties",
+          "properties": {
+            "bootstrap_servers": {
+              "description": "Destination kafka Server address",
+              "type": "string",
+              "title": "Destination kafka address",
+              "default": "edge-kafka-bootstrap:9093"
+            }
+          }
+        }
+      }
+    }
+  },
+  "required": [
+    "sink"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "bootstrap_server": "localhost:9093",
+  "num_workers": 1,
+  "topic_name": "kafka-security-topic",
+  "group_id": "sample_group",
+  "auto_offset_reset": "latest",
+  "num_threads": 1,
+  "sink": {
+    "topic": "output-events",
+    "properties": {
+      "bootstrap_servers": "edge-kafka-bootstrap:9093"
+    }
+  },
+  "advance_inputs": {
+    "security_protocol": "SSL",
+    "ca_cert": "-----BEGIN CERTIFICATE-----\nMIIFCzCCAvOgAwIBAgIJAMbEcF5ac7ldMA0GCSqGSIb3DQEBCwUAMBwxGjAYBgNV\nBAMMEUthZmthLVNlY3VyaXR5LUNBMB4XDTI0MDExMzEzMDEwOVoXDTI1MDExMjEz\nMDEwOVowHDEaMBgGA1UEAwwRS2Fma2EtU2VjdXJpdHktQ0EwggIiMA0GCSqGSIb3\nDQEBAQUAA4ICDwAwggIKAoICAQDDfJzNMgV4Vi/nH+v1gF3APo2SQU4zQgc2wOty\nj2ld3Kc3l6yDV/v1bjD8EBnHkEJgBwBCJ6GdsUAO+YPhW0DUgILzYwyUCTbrcwLp\ndrvJjqdlqHy2toaACwnNR4TZONW7hWT71x2iCDzXtEFnLPlSjg08LQaF5DXQHs0+\nfswUP9dZ0GvFt3f+E74oVPm2WkLzRCKdBfA5kZotlQklH/TrPDKTtOWFInNpd8D/\nrfZxS8lv2NRqVqjvBIL7Xfi7OPibPmolbb/gXWOnmEz0RQF6kZ4zdIwyzPR+L9bw\nxaA7jBShm3BUEfnJJMjICNVu8olOoBfJ0+mRsJZpV3B2YBtU33F06R9Nf/dJyxXt\nQcPu4kdlWkF8PbUTP/5bVsrX8jxOk4zGpV+7CS7cRayRGZFWkQDRbus8Hkjpxkru\nt16sVCz1ntQGPb0Lm+aH5IRe5xKl4v+5dSS9fpxaXlz+/fArWjlXVofqhQoJHsxz\nG9B5Ay3clUX72ho6PJ+FHXg5uo9CQjFBFHiRYYsLdq507n7gONTBcW2G1F1qPiZ/\nEjGzQ8kr+hswcEsdJTvkZl14Yk3t5Q7qyydxuWL4GcyeqBT1BO2wuJc0HG7b5AUZ\n7FtV8lH8GFUno+zK/WTCUhe9rasQhu3g/G8tOQlVFzvRo4/2l+/JdYLRGyJqRZ6e\n8hCvEQIDAQABo1AwTjAdBgNVHQ4EFgQU+3mPCndjfO9BvGZPcK8OsEMH6C4wHwYD\nVR0jBBgwFoAU+3mPCndjfO9BvGZPcK8OsEMH6C4wDAYDVR0TBAUwAwEB/zANBgkq\nhkiG9w0BAQsFAAOCAgEAjtpFPCecpxLvsqx58uNb1RpG9lv8zfFnZ5CxshWU64mc\nUKpWsJjbnmdWKH7kgbvSDXKEpyqkeWyxaJKq7KkJb7d3xGsXoAlHNjM12guZVJV0\nnwDy2QPjzCIzbmU8Uh9GhuWEXU/Mk+nXWM4xVn51lGt1bvkdT+TUIvLM32Zz2ZDP\n06aoekU31Mm2s4duKjC6qPzn9pPvgNGmuumEbgG0MjxWV149kuUs6U3kCl77q6IL\nxAqvpnyvymwHsCuE7uG1X3vWeY+rSqZQWE68hjbFoJqDEiSWxbHfdXqQYcNQw4C3\nuD+Ox9rPfeUqK4Shnw7ndZY875aNwkMgdChJPSSKZJ/burSGkb3zNpRD4FSqwXhe\n5sVCbezxBsdNyOBWO7w/FwvHzt+HwmRL5SrctG8goMtMpDRK+7/NEgakVbjQGLP+\niFuqlQktD1mgJelpuqChE3h9KJYcqIX/j1OrGWgxvsjdbYfKuzpGLrNkVkfDv/kR\n0dSK0S0Y3wfFwQaKTiQjxAr1iRM2s1o+e38dFRtJxAf4i6Gbu7PJtCnmtMayIl82\nzkpoTMYQx3gAgHVBCBGT1BdrSzorwLyHkYZKSl+XPgp6Xaev+qaeZvwMflD5BaN3\nf6TvfW9QFbdLIKlDa9YS37+4gdCxfXyiaPADKMByp+CRZ/AYVXgcq4ohVWfgHPY=\n-----END CERTIFICATE-----"
+  }
+}

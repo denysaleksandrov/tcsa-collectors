@@ -1,0 +1,8 @@
+{
+  "TCSA_IP": "localhost",
+  "TCSA_PORT" : "30002",
+  "TCSA_USERNAME" : "admin",
+  "TCSA_PASSWORD" : "changeme",
+  "PROTOCOL": "https",
+  "type": "kafka"
+}

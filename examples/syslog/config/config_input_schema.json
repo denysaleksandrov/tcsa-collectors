@@ -1,0 +1,326 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "mode": {
+      "description": "Mode of operation for collecting the Syslog messages.",
+      "type": "object",
+      "title": "Mode",
+      "widget": {
+        "formlyConfig": {
+          "type": "switchView"
+        }
+      },
+      "properties": {
+        "mode_type": {
+          "type": "string",
+          "title": "Mode",
+          "enum": [
+            "Listen",
+            "Query"
+          ],
+          "default": "Listen",
+          "description": "The mode on which the Syslog collector operates. For Syslog message collection, the collector can either actively pull messages from agents via SSH (Query mode) or passively listen for messages pushed from the agents directly via exposed Node port (Listen mode)"
+        },
+        "listen_settings": {
+          "type": "object",
+          "properties": {
+            "PortBindings": {
+              "description": "Port Bindings",
+              "type": "object",
+              "title": "Port Bindings",
+              "properties": {
+                "port": {
+                  "description": "The port on which the collector application is running.",
+                  "type": "number",
+                  "title": "Port",
+                  "default": 2064
+                },
+                "node_port": {
+                  "description": "The node port at which the user will publish the syslog messages. Range (30000-32767). Refer to documentation for Reserved Ports.",
+                  "type": "number",
+                  "title": "Node Port"
+                },
+                "port_protocol": {
+                  "description": "The transport layer protocol on which the collector is accepting requests. UDP for Syslog collector by default.",
+                  "type": "string",
+                  "default": "udp",
+                  "enum": [
+                    "udp"
+                  ],
+                  "title": "Port Protocol"
+                }
+              },
+              "required": [
+                "port",
+                "node_port",
+                "port_protocol"
+              ]
+            },
+            "port_bind_type": {
+              "description": "The type of port binding used. This can be either Gateway or NodePort.",
+              "type": "string",
+              "title": "Port Bind Type",
+              "default": "NodePort",
+              "enum": ["NodePort"]
+            }
+          }
+        },
+        "query_settings": {
+          "type": "object",
+          "title": "Connection Parameters",
+          "properties": {
+            "host": {
+              "description": "Hostname or IP address of the network device or the Syslog server.",
+              "type": "string",
+              "title": "Hostname or IP address"
+            },
+            "username": {
+              "description": "Username of the network device or the Syslog server.",
+              "type": "string",
+              "title": "Username"
+            },
+            "password": {
+              "description": "Password of the network device or the Syslog server.",
+              "type": "string",
+              "format": "password",
+              "title": "Password"
+            },
+            "log_directory": {
+              "description": "File directory path of the syslog file.",
+              "type": "string",
+              "title": "Syslog Path"
+            }
+          }
+        }
+      }
+    },
+    "notification_attributes": {
+      "description": "Notification Attributes",
+      "type": "object",
+      "title": "Notification Attributes",
+      "properties": {
+        "category": {
+          "description": "Represents a broad categorization of the event (for example, Availability against Temperature). Valid values can be: AVAILABILITY, CAPACITY, COMPLIANCE, CONFIGURATION and PERFORMANCE.",
+          "type": "string",
+          "title": "Category",
+          "default": "$set_on_match(\".*\",\"AVAILABILITY\")"
+        },
+        "className": {
+          "description": "The Class name of the managed element where the event occurred.",
+          "type": "string",
+          "title": "Class Name"
+        },
+        "eventName": {
+          "description": "The name of the event that occurred.",
+          "type": "string",
+          "title": "Event Name"
+        },
+        "eventState": {
+          "description": "Indicates the state of the event. Values can be ACTIVE (notified), SUSPENDED, WAS_ACTIVE, or INACTIVE (cleared).",
+          "type": "string",
+          "title": "Event State",
+          "default": "$set_on_match(\".*\",\"ACTIVE\")"
+        },
+        "eventText": {
+          "description": "A longer textual description of the event.",
+          "type": "string",
+          "title": "Event Text"
+        },
+        "eventType": {
+          "description": "Indicates the nature of the event. Value can be either MOMENTARY or DURABLE. A momentary event has no duration. A durable event has a period during which the event is active and after which the event is no longer active.",
+          "type": "string",
+          "title": "Event Type",
+          "default": "MOMENTARY",
+          "enum": ["MOMENTARY", "DURABLE"]
+        },
+        "instanceName": {
+          "description": "Name of the instance where the problem was diagnosed.",
+          "type": "string",
+          "title": "Instance Name"
+        },
+        "severity": {
+          "description": "Severity of the event occurred.",
+          "type": "string",
+          "title": "Severity"
+        },
+        "source": {
+          "title": "Source",
+          "type": "string",
+          "description": "Identifies the software components that diagnosed the event, where the event originated (for example, a Global Manager, Domain Manager, SAM Adapter Platform, or SAM adapter).",
+          "default": "SYSLOG"
+        },
+        "timestamp": {
+          "description": "The Timestamp when the syslog message occurred.",
+          "type": "string",
+          "title": "Timestamp"
+        }
+    },
+    "required": [
+      "className",
+      "eventName",
+      "instanceName",
+      "source"
+    ]
+  },
+    "user_defined_fields" : {
+      "description": "User defined fields 1 through 20. You can set them for usage or to hold some useful values, strings etc.",
+      "type": "object",
+      "title": "User-Defined Fields",
+      "widget": {
+        "formlyConfig": {
+          "type": "toggleView"
+        }
+      },
+      "properties": {
+        "use_advancedsettings": {
+          "type": "boolean",
+          "title": "Enable User-Defined Fields",
+          "description": "Enable User-Defined Fields",
+          "default": false
+        },
+        "settings": {
+          "type": "object",
+          "title": "User-Defined Fields",
+          "properties": {
+            "userDefined1": {
+              "description": "User Defined 1",
+              "type": "string",
+              "title": "User Defined 1"
+            },
+            "userDefined2": {
+              "description": "User Defined 2",
+              "type": "string",
+              "title": "User Defined 2"
+            },
+            "userDefined3": {
+              "description": "User Defined 3",
+              "type": "string",
+              "title": "User Defined 3"
+            },
+            "userDefined4": {
+              "description": "User Defined 4",
+              "type": "string",
+              "title": "User Defined 4"
+            },
+            "userDefined5": {
+              "description": "User Defined 5",
+              "type": "string",
+              "title": "User Defined 5"
+            },
+            "userDefined6": {
+              "description": "User Defined 6",
+              "type": "string",
+              "title": "User Defined 6"
+            },
+            "userDefined7": {
+              "description": "User Defined 7",
+              "type": "string",
+              "title": "User Defined 7"
+            },
+            "userDefined8": {
+              "description": "User Defined 8",
+              "type": "string",
+              "title": "User Defined 8"
+            },
+            "userDefined9": {
+              "description": "User Defined 9",
+              "type": "string",
+              "title": "User Defined 9"
+            },
+            "userDefined10": {
+              "description": "User Defined 10",
+              "type": "string",
+              "title": "User Defined 10"
+            },
+            "userDefined11": {
+              "description": "User Defined 11",
+              "type": "string",
+              "title": "User Defined 11"
+            },
+            "userDefined12": {
+              "description": "User Defined 12",
+              "type": "string",
+              "title": "User Defined 12"
+            },
+            "userDefined13": {
+              "description": "User Defined 13",
+              "type": "string",
+              "title": "User Defined 13"
+            },
+            "userDefined14": {
+              "description": "User Defined 14",
+              "type": "string",
+              "title": "User Defined 14"
+            },
+            "userDefined15": {
+              "description": "User Defined 15",
+              "type": "string",
+              "title": "User Defined 15"
+            },
+            "userDefined16": {
+              "description": "User Defined 16",
+              "type": "string",
+              "title": "User Defined 16"
+            },
+            "userDefined17": {
+              "description": "User Defined 17",
+              "type": "string",
+              "title": "User Defined 17"
+            },
+            "userDefined18": {
+              "description": "User Defined 18",
+              "type": "string",
+              "title": "User Defined 18"
+            },
+            "userDefined19": {
+              "description": "User Defined 19",
+              "type": "string",
+              "title": "User Defined 19"
+            },
+            "userDefined20": {
+              "description": "User Defined 20",
+              "type": "string",
+              "title": "User Defined 20"
+            }
+          }
+        }
+      }
+    },
+    "sink": {
+      "description": "This is the destination kafka details",
+      "type": "object",
+      "title": "Destination Kafka",
+      "properties": {
+        "topic": {
+          "description": "The topic to publish output Data",
+          "type": "string",
+          "title": "Topic Name",
+          "default": "vsa_events_raw"
+        },
+        "properties": {
+          "description": "Destination kafka details",
+          "type": "object",
+          "properties": {
+            "bootstrap_servers": {
+              "description": "Destination kafka Server address",
+              "type": "string",
+              "title": "Destination kafka address",
+              "default": "edge-kafka-bootstrap:9093"
+            }
+          },
+          "required": [
+            "bootstrap_servers"
+          ]
+        }
+      },
+      "required": [
+        "topic",
+        "properties"
+      ]
+    }
+},
+"required": [
+"notification_attributes"
+]
+}

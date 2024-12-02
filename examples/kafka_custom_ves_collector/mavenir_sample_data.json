@@ -1,0 +1,33 @@
+{
+    "labels":
+    {
+        "mtcilId": "mtcil1",
+        "DUID": "851015005",
+        "app": "ueconmgr",
+        "QCI_5QI": "9",
+        "msuid": "fff530e8-6455-4a95-b329-941c6d16301d-001",
+        "kubernetes_pod_name": "ueconmgr-6fdb69cb7f-qjqx8",
+        "nfType": "cucp",
+        "haRole": "active",
+        "SRCNRCGI": "86465872771969116",
+        "kubernetes_namespace": "lasnv001b-ns-mv-cucp-851015",
+        "mtcil_com_mmaas_clock_aligned": "true",
+        "instance": "100.121.139.255:6060",
+        "RUID": "851011513",
+        "nfId": "cucp-851015000",
+        "timestamp": 1636649663000,
+        "GroupName": "HO5QITARGETCELL",
+        "job": "kubernetes-pods",
+        "CellClusterId": "111",
+        "__name__": "MM_5QI_HoInSucc",
+        "nfinstanceid": "ueconmgr1",
+        "CUCPID": "851015000",
+        "TGTNRCGI": "86465872771969114",
+        "pod_template_hash": "6fdb69cb7f",
+        "microSvcName": "ueconmgr",
+        "svc": "ueconmgrappln",
+        "value": 2.0,
+        "token": "001",
+        "source_port": "8081"
+    }
+}

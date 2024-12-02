@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "host": {
+      "type": "string",
+      "title": "Host Name",
+      "description": "Host Name Required"
+    },
+    "verify_ssl": {
+      "type": "boolean",
+      "title": "verify SSL",
+      "description": "SSL verification Required",
+      "default": false
+    },
+    "cert_file": {
+      "type": "string",
+      "title": "Client Certificate File",
+      "description": "Client Certificate File Required",
+      "default": ""
+    },
+    "key_file": {
+      "type": "string",
+      "title": "Client Key File",
+      "description": "Client Key File Required",
+      "default": ""
+    },
+    "ssl_ca_cert": {
+      "type": "string",
+      "title": "SSL Certificate File",
+      "description": "SSL Certificate File Required",
+      "default": ""
+    },
+    "sink": {
+      "description": "This is the destination kafka details",
+      "type": "object",
+      "title": "Destination Kafka",
+      "properties": {
+        "topic": {
+          "description": "The topic to publish output Data",
+          "type": "string",
+          "title": "Topic Name",
+          "default": "inv_topo"
+        },
+        "properties": {
+          "description": "Destination kafka details",
+          "type": "object",
+          "title": "Properties",
+          "properties": {
+            "bootstrap_servers": {
+              "description": "Destination kafka Server address",
+              "type": "string",
+              "title": "Destination kafka address",
+              "default": "internal-kafka-bootstrap:9092"
+            }
+          },
+          "required": [
+            "bootstrap_servers"
+          ]
+        }
+      },
+      "required": [
+        "topic",
+        "properties"
+      ]
+    }
+  },
+  "required": [
+    "host",
+    "verify_ssl",
+    "cert_file",
+    "key_file",
+    "ssl_ca_cert"
+  ]
+}

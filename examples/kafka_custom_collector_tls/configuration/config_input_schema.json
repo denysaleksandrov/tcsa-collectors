@@ -1,0 +1,109 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "required": [
+    "bootstrap_server",
+    "num_workers",
+    "topic_name",
+    "group_id",
+    "auto_offset_reset",
+    "num_threads",
+    "advance_inputs"
+  ],
+  "properties": {
+    "bootstrap_server": {
+      "description": "The Source Kafka Server from where the data is collected",
+      "type": "string",
+      "title": "Bootstrap Server"
+    },
+    "num_workers": {
+      "description": "The number of workers for consumer should be equal to number of partition in source kafka topic",
+      "type": "integer",
+      "title": "Number of Worker Process",
+      "minimum": 1,
+      "maximum": 8,
+      "default": 4
+    },
+    "topic_name": {
+      "description": "Source Kafka Topic ",
+      "type": "string",
+      "title": "Topic Name"
+    },
+    "group_id": {
+      "description": "Group Id for the kafka consumer",
+      "type": "string",
+      "title": "Group Id",
+      "default": "custom-kafka-consumer-group"
+    },
+    "auto_offset_reset": {
+      "description": "behavior of the consumer when there is no committed position",
+      "type": "string",
+      "title": "Auto Offset Reset",
+      "default": "earliest",
+      "enum" :["earliest", "latest", "none"]
+    },
+    "num_threads": {
+      "description": "The Number of threads",
+      "type": "integer",
+      "title": "Number of Threads",
+      "minimum": 1,
+      "maximum": 16,
+      "default": 4
+    },
+    "advance_inputs": {
+      "description": "The unique identifier for a product",
+      "type": "object",
+      "title": "Advance Properties",
+      "properties": {
+        "security_protocol": {
+          "description": "Source Kafka Security Protocol",
+          "type": "string",
+          "title": "Security Protocol",
+          "enum": ["SSL"]
+        },
+        "ca_cert": {
+          "description": "CA certificate is used to verify the authenticity",
+          "type": "text-area",
+          "title": "TLS Certificate"
+        }
+      },
+      "required": [
+        "security_protocol",
+        "ca_cert"
+      ]
+    },
+    "sink": {
+      "description": "This is the destination kafka details",
+      "type": "object",
+      "title": "Destination Kafka",
+      "properties": {
+        "topic": {
+          "description": "The topic to publish output Data",
+          "type": "string",
+          "title": "Topic Name",
+          "default": "vsa_metrics_raw"
+        },
+        "properties": {
+          "description": "Destination kafka details",
+          "type": "object",
+          "title": "Properties",
+          "properties": {
+            "bootstrap_servers": {
+              "description": "Destination kafka Server address",
+              "type": "string",
+              "title": "Destination kafka address",
+              "default": "internal-kafka-bootstrap:9092"
+            }
+          },
+          "required": [
+            "bootstrap_servers"
+          ]
+        }
+      },
+      "required": [
+        "topic",
+        "properties"
+      ]
+    }
+  }
+}

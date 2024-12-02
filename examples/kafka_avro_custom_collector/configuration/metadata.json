@@ -1,0 +1,8 @@
+{
+  "name" : "kafka-avro-custom-collector",
+  "description" : "kafka avro collector package",
+  "entrypoint" : "kafka_avro_custom_collector.py",
+  "version" : "0.0.1",
+  "creator" : "admin",
+  "tests" : ["test/core.py"]
+}

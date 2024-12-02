@@ -1,0 +1,67 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "host": {
+      "type": "string",
+      "title": "Host Url",
+      "description": "Rest Uri from where data will be collected"
+    },
+    "verify_ssl": {
+      "type": "boolean",
+      "title": "verify SSL",
+      "description": "SSL verification Required",
+      "default": false
+    },
+    "username": {
+      "type": "string",
+      "title":"Username",
+      "description": "Authentication Username",
+      "default": ""
+    },
+    "password": {
+      "type": "string",
+      "title":"Password",
+      "description": "Authentication Password",
+      "format": "password",
+      "default": ""
+    },
+    "sink": {
+      "description": "This is the destination kafka details",
+      "type": "object",
+      "title": "Destination Kafka",
+      "properties": {
+        "topic": {
+          "description": "The topic to publish output Data",
+          "type": "string",
+          "title": "Topic Name",
+          "default": "inv_topo"
+        },
+        "properties": {
+          "description": "Destination kafka details",
+          "type": "object",
+          "title": "Properties",
+          "properties": {
+            "bootstrap_servers": {
+              "description": "Destination kafka Server address",
+              "type": "string",
+              "title": "Destination kafka address",
+              "default": "internal-kafka-bootstrap:9092"
+            }
+          },
+          "required": [
+            "bootstrap_servers"
+          ]
+        }
+      },
+      "required": [
+        "topic",
+        "properties"
+      ]
+    }
+  },
+  "required": [
+    "host",
+    "verify_ssl"
+  ]
+}

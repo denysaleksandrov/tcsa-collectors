@@ -1,0 +1,10 @@
+alias: saankya_events_restconf
+creator: admin
+description: saankya O1 events collector
+name: saankya_events_restconf
+repository: ''
+requirements: []
+runtime:
+  main: saankya_events.py
+  tests: []
+version: 0.0.1

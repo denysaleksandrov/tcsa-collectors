@@ -1,0 +1,8 @@
+{
+  "name" : "netconf_collector",
+  "description" : "commscope netconf event collector",
+  "entrypoint" : "netconf_collector.py",
+  "version" : "0.0.1",
+  "creator" : "admin",
+  "tests" : []
+}
