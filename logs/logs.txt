@@ -408,3 +408,108 @@ HTTP response body: b'{"module_name":"common-services","error_message":"The cred
 2024-12-02 15:46:49,622 — plugin.architecture — DEBUG — publish:91 — start publish 
 2024-12-02 15:46:49,622 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
 2024-12-02 15:46:49,637 — plugin.architecture — INFO — __invoke_on_plugins:48 — Loaded device: None
+2024-12-02 16:33:50,065 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 16:33:50,065 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 16:33:50,066 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 16:33:50,514 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 16:33:50,514 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 16:33:50,514 — plugin.architecture — INFO — collect:28 — https://10.192.108.3
+2024-12-02 16:33:51,224 — plugin.architecture — INFO — collect:43 — status: 200
+2024-12-02 16:33:51,229 — plugin.architecture — INFO — transform:73 — started transform on data {'labels': {'instance': '10.192.108.3:Border-T0:edge01-uplink1', 'name': 'Border-T0:edge01-uplink1', 'timestampt': 1733153317052, 'value': 13208, 'nsx_instance': '10.192.108.3', 'metric_type': 'rx_malformed_dropped_packets'}}
+2024-12-02 16:33:51,229 — plugin.architecture — INFO — transform:97 — transform completed
+2024-12-02 16:33:51,230 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 16:33:51,230 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 16:33:51,232 — plugin.architecture — INFO — __invoke_on_plugins:48 — Loaded device: None
+2024-12-02 16:35:00,381 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 16:35:00,382 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 16:35:00,382 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 16:35:00,689 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 16:35:00,689 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 16:35:00,690 — plugin.architecture — INFO — collect:28 — https://10.192.108.3
+2024-12-02 16:35:01,339 — plugin.architecture — INFO — collect:43 — status: 200
+2024-12-02 16:35:01,345 — plugin.architecture — INFO — transform:73 — started transform on data {'labels': {'instance': '10.192.108.3:Border-T0:edge01-uplink1', 'name': 'Border-T0:edge01-uplink1', 'timestampt': 1733153317052, 'value': 13208, 'nsx_instance': '10.192.108.3', 'metric_type': 'rx_malformed_dropped_packets'}}
+2024-12-02 16:35:01,345 — plugin.architecture — INFO — transform:97 — transform completed
+2024-12-02 16:35:26,961 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 16:35:26,961 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 16:35:26,962 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 16:35:27,330 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 16:35:27,331 — plugin.architecture — INFO — collect:23 — NSX custom API started collect()
+2024-12-02 16:35:27,331 — plugin.architecture — INFO — collect:29 — https://10.192.108.3
+2024-12-02 16:35:27,995 — plugin.architecture — INFO — collect:44 — status: 200
+2024-12-02 16:35:28,000 — plugin.architecture — INFO — transform:74 — started transform on data {'labels': {'instance': '10.192.108.3:Border-T0:edge01-uplink1', 'name': 'Border-T0:edge01-uplink1', 'timestampt': 1733153317052, 'value': 13208, 'nsx_instance': '10.192.108.3', 'metric_type': 'rx_malformed_dropped_packets'}}
+2024-12-02 16:35:28,001 — plugin.architecture — INFO — transform:98 — transform completed
+2024-12-02 16:35:28,002 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 16:35:28,002 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 16:35:28,006 — plugin.architecture — INFO — __invoke_on_plugins:48 — Loaded device: None
+2024-12-02 17:19:57,077 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 17:19:57,078 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 17:19:57,078 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 17:19:57,348 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 17:19:57,348 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 17:19:57,348 — plugin.architecture — INFO — collect:28 — https://10.192.108.3
+2024-12-02 17:19:58,009 — plugin.architecture — INFO — collect:43 — status: 200
+2024-12-02 17:19:58,012 — plugin.architecture — INFO — transform:74 — started transform on data {'labels': {'instance': '10.192.108.3:Border-T0:edge01-uplink1', 'name': 'Border-T0:edge01-uplink1', 'timestampt': 1733156017872, 'value': 13210, 'nsx_instance': '10.192.108.3', 'metric_type': 'rx_malformed_dropped_packets'}}
+2024-12-02 17:19:58,012 — plugin.architecture — INFO — transform:98 — transform completed
+2024-12-02 17:19:58,012 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 17:19:58,012 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 17:19:58,024 — plugin.architecture — INFO — __invoke_on_plugins:48 — Loaded device: None
+2024-12-02 17:20:37,852 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-02 17:20:37,852 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-02 17:20:37,852 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-02 17:20:38,086 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-02 17:20:38,086 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-02 17:20:38,086 — plugin.architecture — INFO — collect:28 — https://10.192.108.3
+2024-12-02 17:20:38,717 — plugin.architecture — INFO — collect:43 — status: 200
+2024-12-02 17:20:38,721 — plugin.architecture — INFO — transform:74 — started transform on data {'labels': {'instance': '10.192.108.3:Border-T0:edge01-uplink1', 'name': 'Border-T0:edge01-uplink1', 'timestamp': 1733156017872, 'value': 13210, 'nsx_instance': '10.192.108.3', 'metric_type': 'rx_malformed_dropped_packets'}}
+2024-12-02 17:20:38,721 — plugin.architecture — INFO — transform:98 — transform completed
+2024-12-02 17:20:38,721 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-02 17:20:38,721 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-02 17:20:38,724 — plugin.architecture — INFO — __invoke_on_plugins:48 — Loaded device: None
+2024-12-05 21:12:17,708 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-05 21:12:17,709 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-05 21:12:17,709 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-05 21:12:18,000 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-05 21:12:18,001 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-05 21:12:18,001 — plugin.architecture — INFO — collect:28 — https://10.192.108.3
+2024-12-05 21:12:18,601 — plugin.architecture — INFO — collect:43 — status: 200
+2024-12-05 21:12:18,604 — plugin.architecture — INFO — transform:73 — started transform on data {'labels': {'instance': '10.192.108.3:Border-T0:edge01-uplink1', 'name': 'Border-T0:edge01-uplink1', 'timestamp': 1733429104180, 'value': 13404, 'nsx_instance': '10.192.108.3', 'metric_type': 'rx_malformed_dropped_packets'}}
+2024-12-05 21:12:18,604 — plugin.architecture — INFO — transform:98 — transform completed
+2024-12-05 21:12:18,604 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-05 21:12:18,604 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-05 21:12:18,605 — plugin.architecture — INFO — __invoke_on_plugins:48 — Loaded device: None
+2024-12-06 14:03:40,355 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector_2
+2024-12-06 14:03:40,356 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector_2
+2024-12-06 14:03:40,356 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-06 14:03:40,615 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector_2.rest_collector`
+2024-12-06 14:03:40,616 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-06 14:03:40,616 — plugin.architecture — INFO — collect:28 — https://10.192.108.3
+2024-12-06 14:03:41,204 — plugin.architecture — INFO — collect:43 — status: 200
+2024-12-06 14:03:41,207 — plugin.architecture — INFO — transform:74 — started transform on data {'labels': {'instance': '10.192.108.3:Border-T0:edge01-uplink1', 'name': 'edge01-uplink1', 'deviceName': 'Border-T0', 'timestamp': 1733489725027, 'value': 13447, 'nsx_instance': '10.192.108.3', 'metric_type': 'rx_malformed_dropped_packets'}}
+2024-12-06 14:03:41,208 — plugin.architecture — INFO — transform:98 — transform completed
+2024-12-06 14:03:41,208 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-06 14:03:41,208 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-06 14:03:41,209 — plugin.architecture — INFO — __invoke_on_plugins:48 — Loaded device: None
+2024-12-10 14:22:16,995 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector_2
+2024-12-10 14:22:16,996 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector_2
+2024-12-10 14:22:16,997 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-10 14:22:17,658 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector_2.rest_collector`
+2024-12-10 14:22:17,658 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-10 14:22:17,659 — plugin.architecture — INFO — collect:28 — https://10.192.108.3
+2024-12-10 14:22:18,353 — plugin.architecture — INFO — collect:43 — status: 200
+2024-12-10 14:22:18,362 — plugin.architecture — INFO — transform:74 — started transform on data {'labels': {'instance': '10.192.108.3:Border-T0:edge01-uplink1', 'name': 'edge01-uplink1', 'deviceName': 'Border-T0', 'timestamp': 1733836628985, 'value': 13694, 'nsx_instance': '10.192.108.3', 'metric_type': 'rx_malformed_dropped_packets'}}
+2024-12-10 14:22:18,362 — plugin.architecture — INFO — transform:98 — transform completed
+2024-12-10 14:22:18,363 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-10 14:22:18,364 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-10 14:22:18,366 — plugin.architecture — INFO — __invoke_on_plugins:48 — Loaded device: None
+2024-12-10 14:23:44,640 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package nsx_rest_collector
+2024-12-10 14:23:44,641 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: nsx_rest_collector
+2024-12-10 14:23:44,642 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-10 14:23:45,310 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `nsx_rest_collector.rest_collector`
+2024-12-10 14:23:45,310 — plugin.architecture — INFO — collect:22 — NSX custom API started collect()
+2024-12-10 14:23:45,311 — plugin.architecture — INFO — collect:28 — https://10.192.108.3
+2024-12-10 14:23:46,002 — plugin.architecture — INFO — collect:43 — status: 200
+2024-12-10 14:23:46,012 — plugin.architecture — INFO — transform:73 — started transform on data {'labels': {'instance': '10.192.108.3:Border-T0:edge01-uplink1', 'name': 'Border-T0:edge01-uplink1', 'timestamp': 1733836628985, 'value': 13694, 'nsx_instance': '10.192.108.3', 'metric_type': 'rx_malformed_dropped_packets'}}
+2024-12-10 14:23:46,013 — plugin.architecture — INFO — transform:97 — transform completed
+2024-12-10 14:23:46,014 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-10 14:23:46,014 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-10 14:23:46,030 — plugin.architecture — INFO — __invoke_on_plugins:48 — Loaded device: None

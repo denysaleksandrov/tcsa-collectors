@@ -1,0 +1,10 @@
+{
+  "host": "http://127.0.0.1:8080",
+  "verify_ssl": false,
+  "sink": {
+    "topic": "vsa_metrics_raw",
+    "properties": {
+      "bootstrap_servers": "internal-kafka-bootstrap:9092"
+    }
+  }
+}

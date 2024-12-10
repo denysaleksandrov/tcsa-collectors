@@ -47,7 +47,8 @@ class RestCollector(BatchCollector):
                 nsx_ip = configuration.host.lstrip("https://")
                 labels = {
                     "instance": nsx_ip + ":Border-T0:edge01-uplink1",
-                    "name": "Border-T0:edge01-uplink1",
+                    "name": "edge01-uplink1",
+                    "deviceName": "Border-T0",
                     "timestamp": raw_data.get("last_update_timestamp"),
                     "value": raw_data.get("rx").get("malformed_dropped_packets"),
                     "nsx_instance": nsx_ip,
@@ -82,16 +83,16 @@ class RestCollector(BatchCollector):
             properties = {}
             properties["entityName"] = collected_data.get("labels").get("name")
             properties["dataSource"] = collected_data.get("labels").get("nsx_instance")
-            properties["deviceName"] = collected_data.get("labels").get("name")
-            properties["entityType"] = "DURABLE"
+            properties["deviceName"] = collected_data.get("labels").get("deviceName")
+            properties["entityType"] = "Interface"
             properties["deviceType"] = "nsxEdge"
             properties["ip"] = collected_data.get("labels").get("nsx_instance")
             output_data["properties"] = properties
             metrics = {"sample": collected_data.get("labels").get("value")}
             output_data["metrics"] = metrics
             tags = {
-                "tag1": "Custom Tag",
-                "deviceName": collected_data.get("labels").get("instance"),
+                "hostname": collected_data.get("labels").get("deviceName"),
+                "deviceName": collected_data.get("labels").get("deviceName"),
             }
             output_data["tags"] = tags
             self._logger.info("transform completed", output_data)

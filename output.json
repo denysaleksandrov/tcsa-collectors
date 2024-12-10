@@ -20,3 +20,180 @@
     "timestamp": null,
     "type": "Rest-Custom-Collector"
 }
+{
+    "instance": "10.192.108.3:Border-T0:edge01-uplink1",
+    "metricType": "rx_malformed_dropped_packets",
+    "metrics": {
+        "sample": 13208
+    },
+    "processedTimestamp": null,
+    "properties": {
+        "dataSource": "10.192.108.3",
+        "deviceName": "Border-T0:edge01-uplink1",
+        "deviceType": "nsxEdge",
+        "entityName": "Border-T0:edge01-uplink1",
+        "entityType": "DURABLE",
+        "ip": "10.192.108.3"
+    },
+    "tags": {
+        "deviceName": "10.192.108.3:Border-T0:edge01-uplink1",
+        "tag1": "Custom Tag"
+    },
+    "timestamp": null,
+    "type": "Rest-Custom-Collector"
+}
+{
+    "instance": "10.192.108.3:Border-T0:edge01-uplink1",
+    "metricType": "rx_malformed_dropped_packets",
+    "metrics": {
+        "sample": 13208
+    },
+    "processedTimestamp": null,
+    "properties": {
+        "dataSource": "10.192.108.3",
+        "deviceName": "Border-T0:edge01-uplink1",
+        "deviceType": "nsxEdge",
+        "entityName": "Border-T0:edge01-uplink1",
+        "entityType": "DURABLE",
+        "ip": "10.192.108.3"
+    },
+    "tags": {
+        "deviceName": "10.192.108.3:Border-T0:edge01-uplink1",
+        "tag1": "Custom Tag"
+    },
+    "timestamp": null,
+    "type": "Rest-Custom-Collector"
+}
+{
+    "instance": "10.192.108.3:Border-T0:edge01-uplink1",
+    "metricType": "rx_malformed_dropped_packets",
+    "metrics": {
+        "sample": 13210
+    },
+    "processedTimestamp": null,
+    "properties": {
+        "dataSource": "10.192.108.3",
+        "deviceName": "Border-T0:edge01-uplink1",
+        "deviceType": "nsxEdge",
+        "entityName": "Border-T0:edge01-uplink1",
+        "entityType": "DURABLE",
+        "ip": "10.192.108.3"
+    },
+    "tags": {
+        "deviceName": "10.192.108.3:Border-T0:edge01-uplink1",
+        "tag1": "Custom Tag"
+    },
+    "timestamp": null,
+    "type": "Rest-Custom-Collector"
+}
+{
+    "instance": "10.192.108.3:Border-T0:edge01-uplink1",
+    "metricType": "rx_malformed_dropped_packets",
+    "metrics": {
+        "sample": 13210
+    },
+    "processedTimestamp": 1733156017872,
+    "properties": {
+        "dataSource": "10.192.108.3",
+        "deviceName": "Border-T0:edge01-uplink1",
+        "deviceType": "nsxEdge",
+        "entityName": "Border-T0:edge01-uplink1",
+        "entityType": "DURABLE",
+        "ip": "10.192.108.3"
+    },
+    "tags": {
+        "deviceName": "10.192.108.3:Border-T0:edge01-uplink1",
+        "tag1": "Custom Tag"
+    },
+    "timestamp": 1733156017872,
+    "type": "Rest-Custom-Collector"
+}
+{
+    "instance": "10.192.108.3:Border-T0:edge01-uplink1",
+    "metricType": "rx_malformed_dropped_packets",
+    "metrics": {
+        "sample": 13404
+    },
+    "processedTimestamp": 1733429104180,
+    "properties": {
+        "dataSource": "10.192.108.3",
+        "deviceName": "Border-T0:edge01-uplink1",
+        "deviceType": "nsxEdge",
+        "entityName": "Border-T0:edge01-uplink1",
+        "entityType": "DURABLE",
+        "ip": "10.192.108.3",
+        "severity": "critical"
+    },
+    "tags": {
+        "deviceName": "10.192.108.3:Border-T0:edge01-uplink1",
+        "tag1": "Custom Tag"
+    },
+    "timestamp": 1733429104180,
+    "type": "Rest-Custom-Collector"
+}
+{
+    "instance": "10.192.108.3:Border-T0:edge01-uplink1",
+    "metricType": "rx_malformed_dropped_packets",
+    "metrics": {
+        "sample": 13447
+    },
+    "processedTimestamp": 1733489725027,
+    "properties": {
+        "dataSource": "10.192.108.3",
+        "deviceName": "Border-T0",
+        "deviceType": "nsxEdge",
+        "entityName": "edge01-uplink1",
+        "entityType": "Interface",
+        "ip": "10.192.108.3"
+    },
+    "tags": {
+        "deviceName": "Border-T0",
+        "hostname": "Border-T0"
+    },
+    "timestamp": 1733489725027,
+    "type": "Rest-Custom-Collector"
+}
+{
+    "instance": "10.192.108.3:Border-T0:edge01-uplink1",
+    "metricType": "rx_malformed_dropped_packets",
+    "metrics": {
+        "sample": 13694
+    },
+    "processedTimestamp": 1733836628985,
+    "properties": {
+        "dataSource": "10.192.108.3",
+        "deviceName": "Border-T0",
+        "deviceType": "nsxEdge",
+        "entityName": "edge01-uplink1",
+        "entityType": "Interface",
+        "ip": "10.192.108.3"
+    },
+    "tags": {
+        "deviceName": "Border-T0",
+        "hostname": "Border-T0"
+    },
+    "timestamp": 1733836628985,
+    "type": "Rest-Custom-Collector"
+}
+{
+    "instance": "10.192.108.3:Border-T0:edge01-uplink1",
+    "metricType": "rx_malformed_dropped_packets",
+    "metrics": {
+        "sample": 13694
+    },
+    "processedTimestamp": 1733836628985,
+    "properties": {
+        "dataSource": "10.192.108.3",
+        "deviceName": "Border-T0:edge01-uplink1",
+        "deviceType": "nsxEdge",
+        "entityName": "Border-T0:edge01-uplink1",
+        "entityType": "DURABLE",
+        "ip": "10.192.108.3"
+    },
+    "tags": {
+        "deviceName": "10.192.108.3:Border-T0:edge01-uplink1",
+        "tag1": "Custom Tag"
+    },
+    "timestamp": 1733836628985,
+    "type": "Rest-Custom-Collector"
+}

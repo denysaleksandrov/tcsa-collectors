@@ -1,8 +1,8 @@
 {
-  "TCSA_IP": "10.100.13.30",
-  "TCSA_PORT" : "443",
+  "TCSA_IP": "10.249.0.131",
+  "TCSA_PORT" : "30002",
   "TCSA_USERNAME" : "admin",
   "TCSA_PASSWORD" : "changeme",
   "PROTOCOL": "https",
-  "type": "kafka"
+  "type": "rest"
 }
