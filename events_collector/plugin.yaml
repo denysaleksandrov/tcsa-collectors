@@ -1,0 +1,11 @@
+alias: events-collector
+creator: admin
+description: events collector package
+name: events-collector
+repository: ''
+requirements: []
+runtime:
+  main: rest_collector.py
+  tests:
+  - test/core.py
+version: 0.0.1

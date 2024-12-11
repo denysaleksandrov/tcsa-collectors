@@ -1,6 +1,6 @@
 {
-  "name" : "events-collector",
-  "description" : "events collector package",
+  "name" : "metrics-collector",
+  "description" : "metrics collector package",
   "entrypoint" : "rest_collector.py",
   "version" : "0.0.1",
   "creator" : "admin",

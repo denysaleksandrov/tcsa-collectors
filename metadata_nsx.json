@@ -1,0 +1,8 @@
+{
+  "name" : "nsx-rest-collector",
+  "description" : "rest collector package",
+  "entrypoint" : "rest_collector.py",
+  "version" : "0.0.2",
+  "creator" : "admin",
+  "tests" : ["test/core.py"]
+}

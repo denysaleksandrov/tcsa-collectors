@@ -1,0 +1,11 @@
+alias: metrics-collector
+creator: admin
+description: metrics collector package
+name: metrics-collector
+repository: ''
+requirements: []
+runtime:
+  main: rest_collector.py
+  tests:
+  - test/core.py
+version: 0.0.1

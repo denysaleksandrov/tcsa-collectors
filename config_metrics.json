@@ -1,10 +1,8 @@
 {
-  "host": "https://10.192.108.3",
+  "host": "http://10.100.13.21:8085",
   "verify_ssl": false,
-  "username": "admin",
-  "password": "VMware1!VMware1!",
   "sink": {
-    "topic": "vsa_events_raw",
+    "topic": "vsa_metrics_raw",
     "properties": {
       "bootstrap_servers": "internal-kafka-bootstrap:9092"
     }

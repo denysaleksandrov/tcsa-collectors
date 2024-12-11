@@ -513,3 +513,115 @@ HTTP response body: b'{"module_name":"common-services","error_message":"The cred
 2024-12-10 14:23:46,014 — plugin.architecture — DEBUG — publish:91 — start publish 
 2024-12-10 14:23:46,014 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
 2024-12-10 14:23:46,030 — plugin.architecture — INFO — __invoke_on_plugins:48 — Loaded device: None
+2024-12-10 15:35:56,740 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package metrics_collector
+2024-12-10 15:35:56,741 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: metrics_collector
+2024-12-10 15:35:56,741 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-10 15:35:57,256 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `metrics_collector.rest_collector`
+2024-12-10 15:35:57,256 — plugin.architecture — INFO — collect:22 — Metrics custom API started collect()
+2024-12-10 15:35:57,257 — plugin.architecture — INFO — collect:28 — https://10.192.108.3
+2024-12-10 15:35:59,474 — plugin.architecture — INFO — collect:41 — status: 200
+2024-12-10 15:37:00,987 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package metrics_collector
+2024-12-10 15:37:00,988 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: metrics_collector
+2024-12-10 15:37:00,988 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-10 15:37:01,358 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `metrics_collector.rest_collector`
+2024-12-10 15:37:01,358 — plugin.architecture — INFO — collect:22 — Metrics custom API started collect()
+2024-12-10 15:37:01,358 — plugin.architecture — INFO — collect:28 — https://10.192.108.3
+2024-12-10 15:37:03,530 — plugin.architecture — INFO — collect:41 — status: 200
+2024-12-10 15:37:12,563 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package metrics_collector
+2024-12-10 15:37:12,564 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: metrics_collector
+2024-12-10 15:37:12,564 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-10 15:37:12,865 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `metrics_collector.rest_collector`
+2024-12-10 15:37:12,865 — plugin.architecture — INFO — collect:22 — Metrics custom API started collect()
+2024-12-10 15:37:12,866 — plugin.architecture — INFO — collect:28 — https://10.100.13.31:8085
+2024-12-10 15:38:05,079 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package metrics_collector
+2024-12-10 15:38:05,080 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: metrics_collector
+2024-12-10 15:38:05,081 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-10 15:38:05,458 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `metrics_collector.rest_collector`
+2024-12-10 15:38:05,458 — plugin.architecture — INFO — collect:22 — Metrics custom API started collect()
+2024-12-10 15:38:05,458 — plugin.architecture — INFO — collect:28 — https://10.100.13.21:8085
+2024-12-10 15:39:07,932 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package metrics_collector
+2024-12-10 15:39:07,932 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: metrics_collector
+2024-12-10 15:39:07,932 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-10 15:39:08,309 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `metrics_collector.rest_collector`
+2024-12-10 15:39:08,309 — plugin.architecture — INFO — collect:22 — Metrics custom API started collect()
+2024-12-10 15:39:08,309 — plugin.architecture — INFO — collect:28 — http://10.100.13.21:8085
+2024-12-10 15:39:08,599 — plugin.architecture — INFO — collect:41 — status: 200
+2024-12-10 15:39:08,603 — plugin.architecture — INFO — transform:60 — started transform on data {'instance': '10.192.108.3:Border-T0:edge01-uplink2', 'metricType': 'rx_malformed_dropped_packets', 'metrics': {'sample': 678}, 'processedTimestamp': 1733841550205, 'properties': {'dataSource': '10.192.108.3', 'deviceName': 'Border-T0', 'deviceType': 'nsxEdge', 'entityName': 'edge01-uplink2', 'entityType': 'Interface', 'ip': '10.192.108.3'}, 'tags': {'deviceName': 'Border-T0', 'hostname': 'Border-T0'}, 'timestamp': 1733841550205, 'type': 'Rest-Custom-Collector'}
+2024-12-10 15:39:40,893 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package metrics_collector
+2024-12-10 15:39:40,894 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: metrics_collector
+2024-12-10 15:39:40,894 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-10 15:39:41,331 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `metrics_collector.rest_collector`
+2024-12-10 15:39:41,331 — plugin.architecture — INFO — collect:22 — Metrics custom API started collect()
+2024-12-10 15:39:41,331 — plugin.architecture — INFO — collect:28 — http://10.100.13.21:8085
+2024-12-10 15:39:41,614 — plugin.architecture — INFO — collect:41 — status: 200
+2024-12-10 15:39:41,618 — plugin.architecture — INFO — transform:60 — started transform on data {'instance': '10.192.108.3:Border-T0:edge01-uplink2', 'metricType': 'rx_malformed_dropped_packets', 'metrics': {'sample': 678}, 'processedTimestamp': 1733841583224, 'properties': {'dataSource': '10.192.108.3', 'deviceName': 'Border-T0', 'deviceType': 'nsxEdge', 'entityName': 'edge01-uplink2', 'entityType': 'Interface', 'ip': '10.192.108.3'}, 'tags': {'deviceName': 'Border-T0', 'hostname': 'Border-T0'}, 'timestamp': 1733841583224, 'type': 'Rest-Custom-Collector'}
+2024-12-10 15:39:41,618 — plugin.architecture — INFO — transform:61 — transform completed
+2024-12-10 15:39:41,618 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-10 15:39:41,619 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-10 15:39:41,624 — plugin.architecture — INFO — __invoke_on_plugins:48 — Loaded device: None
+2024-12-10 16:01:18,502 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package metrics_collector
+2024-12-10 16:01:18,502 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: metrics_collector
+2024-12-10 16:01:18,503 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-10 16:01:18,959 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `metrics_collector.rest_collector`
+2024-12-10 16:01:18,959 — plugin.architecture — INFO — collect:22 — Metrics custom API started collect()
+2024-12-10 16:01:18,960 — plugin.architecture — INFO — collect:28 — http://10.100.13.21:8085
+2024-12-10 16:01:19,247 — plugin.architecture — INFO — collect:41 — status: 200
+2024-12-10 16:01:19,251 — plugin.architecture — INFO — transform:60 — started transform on data {'instance': '10.192.108.3:Border-T0:edge01-uplink2', 'metricType': 'rx_malformed_dropped_packets', 'metrics': {'sample': 678}, 'processedTimestamp': 1733842880947, 'properties': {'dataSource': '10.192.108.3', 'deviceName': 'Border-T0', 'deviceType': 'nsxEdge', 'entityName': 'edge01-uplink2', 'entityType': 'Interface', 'ip': '10.192.108.3'}, 'tags': {'deviceName': 'Border-T0', 'hostname': 'Border-T0'}, 'timestamp': 1733842880947, 'type': 'Rest-Custom-Collector'}
+2024-12-10 16:01:19,251 — plugin.architecture — INFO — transform:61 — transform completed
+2024-12-10 16:01:19,251 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-10 16:01:19,252 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-10 16:01:19,253 — plugin.architecture — INFO — __invoke_on_plugins:48 — Loaded device: None
+2024-12-10 16:41:58,723 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package events_collector
+2024-12-10 16:41:58,724 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: events_collector
+2024-12-10 16:41:58,725 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-10 16:41:59,477 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `events_collector.rest_collector`
+2024-12-10 16:41:59,478 — plugin.architecture — INFO — collect:22 — Metrics custom API started collect()
+2024-12-10 16:41:59,479 — plugin.architecture — INFO — collect:28 — http://10.100.13.21:8085
+2024-12-10 16:41:59,812 — plugin.architecture — INFO — collect:41 — status: 200
+2024-12-10 16:41:59,821 — plugin.architecture — INFO — transform:60 — started transform on data {'InstanceName': 'pod', 'Source': 'RESTEVENTS', 'Timestamp': 1733845321682, 'ProcessedTimeStamp': 1733845321682, 'Name': 'test_k8s_pod', 'State': 'Running', 'Severity': 'Info', 'Category': 'Resource', 'EventState': 'Running', 'ElementName': 'test_k8s_name', 'Owner': 'RESTAPI', 'EventText': 'Pod is running', 'EventName': 'TestEvent', 'DisplayName': 'pod', 'EventDisplayName': 'pod', 'ClassDisplayName': 'pod', 'InstanceDisplayName': 'pod', 'SourceEventType': 'EVENTS', 'ClassName': 'pod', 'ElementClassName': 'pod', 'EventType': 'DURABLE', 'Acknowledged': False, 'Active': False, 'Certainty': 100, 'ClearOnAcknowledge': True, 'Impact': 0, 'IsProblem': True, 'IsRoot': True, 'PollingID': '14', 'PollingState': 'Running', 'SourceDomainName': 'pod', 'SourceInfo': '1.28.13', 'SourceSpecific': '1.28.13', 'TroubleTicketID': '8767685', 'ToolInfo': '1.28.13', 'OccurrenceCount': 2, 'FirstNotifiedAt': 1733845321682, 'LastChangedAt': 1733845321682, 'LastNotifiedAt': 1733845321682, 'LastClearedAt': 1733845321682, 'AcknowledgmentTime': 30, 'tags': {}, 'properties': {}, 'InMaintenance': True}
+2024-12-10 16:41:59,822 — plugin.architecture — INFO — transform:61 — transform completed
+2024-12-10 16:41:59,822 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-10 16:41:59,823 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-10 16:41:59,825 — plugin.architecture — INFO — __invoke_on_plugins:48 — Loaded device: None
+2024-12-10 17:31:12,326 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package events_collector
+2024-12-10 17:31:12,327 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: events_collector
+2024-12-10 17:31:12,328 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-10 17:31:12,958 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `events_collector.rest_collector`
+2024-12-10 17:31:12,959 — plugin.architecture — INFO — collect:22 — Metrics custom API started collect()
+2024-12-10 17:31:12,959 — plugin.architecture — INFO — collect:28 — http://10.100.13.21:8085
+2024-12-10 17:31:22,907 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package events_collector
+2024-12-10 17:31:22,908 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: events_collector
+2024-12-10 17:31:22,908 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-10 17:31:23,406 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `events_collector.rest_collector`
+2024-12-10 17:31:23,407 — plugin.architecture — INFO — collect:22 — Metrics custom API started collect()
+2024-12-10 17:31:23,408 — plugin.architecture — INFO — collect:28 — http://10.100.13.21:8085
+2024-12-10 17:31:23,702 — plugin.architecture — INFO — collect:41 — status: 200
+2024-12-10 17:31:23,708 — plugin.architecture — INFO — transform:60 — started transform on data {'InstanceName': 'pod', 'Source': 'RESTEVENTS', 'Timestamp': 1733848285780, 'ProcessedTimeStamp': 1733848285780, 'Name': 'k8sPod', 'State': 'Running', 'Severity': 'Info', 'Category': 'Resource', 'EventState': 'Running', 'ElementName': 'k8sPod', 'Owner': 'RESTAPI', 'EventText': 'Pod is running', 'EventName': 'TestEvent', 'DisplayName': 'pod', 'EventDisplayName': 'pod', 'ClassDisplayName': 'pod', 'InstanceDisplayName': 'pod', 'SourceEventType': 'EVENTS', 'ClassName': 'pod', 'ElementClassName': 'pod', 'EventType': 'DURABLE', 'Acknowledged': False, 'Active': False, 'Certainty': '100', 'ClearOnAcknowledge': True, 'Impact': '0', 'IsProblem': True, 'IsRoot': True, 'PollingID': 14, 'PollingState': 'Running', 'SourceDomainName': 'pod', 'SourceInfo': '1.28.13', 'SourceSpecific': '1.28.13', 'TroubleTicketID': '8767685', 'ToolInfo': '1.28.13', 'OccurrenceCount': '2', 'FirstNotifiedAt': 1733848285780, 'LastChangedAt': 1733848285780, 'LastNotifiedAt': 1733848285780, 'LastClearedAt': 1733848285780, 'AcknowledgmentTime': 30, 'tags': {}, 'properties': {}, 'InMaintenance': True}
+2024-12-10 17:31:23,709 — plugin.architecture — INFO — transform:61 — transform completed
+2024-12-10 17:31:23,710 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-10 17:31:23,710 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-10 17:31:23,713 — plugin.architecture — INFO — __invoke_on_plugins:48 — Loaded device: None
+2024-12-10 17:39:05,932 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package events_collector
+2024-12-10 17:39:05,933 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: events_collector
+2024-12-10 17:39:05,933 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-10 17:39:06,591 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `events_collector.rest_collector`
+2024-12-10 17:39:06,592 — plugin.architecture — INFO — collect:22 — Metrics custom API started collect()
+2024-12-10 17:39:06,592 — plugin.architecture — INFO — collect:28 — http://10.100.13.21:8085
+2024-12-10 17:39:06,899 — plugin.architecture — INFO — collect:41 — status: 200
+2024-12-10 17:39:06,906 — plugin.architecture — INFO — transform:60 — started transform on data {'InstanceName': 'pod', 'Source': 'RESTEVENTS', 'Timestamp': 1733848749009, 'ProcessedTimeStamp': 1733848749009, 'Name': 'k8sPod', 'State': 'Running', 'Severity': 'Info', 'Category': 'Resource', 'EventState': 'Running', 'ElementName': 'k8sPod', 'Owner': 'RESTAPI', 'EventText': 'Pod is running', 'EventName': 'TestEvent', 'DisplayName': 'pod', 'EventDisplayName': 'pod', 'ClassDisplayName': 'pod', 'InstanceDisplayName': 'pod', 'SourceEventType': 'EVENTS', 'ClassName': 'pod', 'ElementClassName': 'pod', 'EventType': 'DURABLE', 'Acknowledged': False, 'Active': False, 'Certainty': '100', 'ClearOnAcknowledge': True, 'Impact': '0', 'IsProblem': True, 'IsRoot': True, 'PollingID': 14, 'PollingState': 'Running', 'SourceDomainName': 'pod', 'SourceInfo': '1.28.13', 'SourceSpecific': '1.28.13', 'TroubleTicketID': '8767685', 'ToolInfo': '1.28.13', 'OccurrenceCount': '2', 'FirstNotifiedAt': 1733848749009, 'LastChangedAt': 1733848749009, 'LastNotifiedAt': 1733848749009, 'LastClearedAt': 1733848749009, 'AcknowledgmentTime': 30, 'tags': {}, 'properties': {}, 'InMaintenance': True}
+2024-12-10 17:39:06,907 — plugin.architecture — INFO — transform:61 — transform completed
+2024-12-10 17:39:06,908 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-10 17:39:06,908 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-10 17:39:06,926 — plugin.architecture — INFO — __invoke_on_plugins:48 — Loaded device: None
+2024-12-10 18:32:27,075 — plugin.architecture — DEBUG — discover_plugins:65 — Searching for plugins under package events_collector
+2024-12-10 18:32:27,077 — plugin.architecture — DEBUG — setup_plugin_configuration:114 — Checking if configuration file exists for module: events_collector
+2024-12-10 18:32:27,077 — plugin.architecture — DEBUG — __read_configuration:81 — reading config
+2024-12-10 18:32:27,926 — plugin.architecture — DEBUG — __check_loaded_plugin_state:29 — Successfully imported module `events_collector.rest_collector`
+2024-12-10 18:32:27,927 — plugin.architecture — INFO — collect:22 — Metrics custom API started collect()
+2024-12-10 18:32:27,927 — plugin.architecture — INFO — collect:28 — http://10.100.13.21:8085
+2024-12-10 18:32:28,266 — plugin.architecture — INFO — collect:41 — status: 200
+2024-12-10 18:32:28,273 — plugin.architecture — INFO — transform:60 — started transform on data {'InstanceName': 'pod', 'Source': 'RESTEVENTS', 'Timestamp': 1733851950601, 'ProcessedTimeStamp': 1733851950601, 'Name': 'k8sPod', 'State': 'Running', 'Severity': 'Info', 'Category': 'Resource', 'EventState': 'Running', 'ElementName': 'k8sPod', 'Owner': 'RESTAPI', 'EventText': 'Pod is running', 'EventName': 'TestEvent', 'DisplayName': 'pod', 'EventDisplayName': 'pod', 'ClassDisplayName': 'pod', 'InstanceDisplayName': 'pod', 'SourceEventType': 'EVENTS', 'ClassName': 'pod', 'ElementClassName': 'pod', 'EventType': 'DURABLE', 'Acknowledged': False, 'Active': False, 'Certainty': '100', 'ClearOnAcknowledge': True, 'Impact': '0', 'IsProblem': True, 'IsRoot': True, 'PollingID': 14, 'PollingState': 'Running', 'SourceDomainName': 'pod', 'SourceInfo': '1.28.13', 'SourceSpecific': '1.28.13', 'TroubleTicketID': '8767685', 'ToolInfo': '1.28.13', 'OccurrenceCount': '2', 'FirstNotifiedAt': 1733851950601, 'LastChangedAt': 1733851950601, 'LastNotifiedAt': 1733851950601, 'LastClearedAt': 1733851950601, 'AcknowledgmentTime': 30, 'tags': {'Region': 'east-1a'}, 'properties': {}, 'InMaintenance': True}
+2024-12-10 18:32:28,274 — plugin.architecture — INFO — transform:61 — transform completed
+2024-12-10 18:32:28,275 — plugin.architecture — DEBUG — publish:91 — start publish 
+2024-12-10 18:32:28,275 — plugin.architecture — INFO — publish:93 — --test flag enabled , publish to output file output.json 
+2024-12-10 18:32:28,277 — plugin.architecture — INFO — __invoke_on_plugins:48 — Loaded device: None

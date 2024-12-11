@@ -1,6 +1,6 @@
 {
-  "TCSA_IP": "10.249.0.131",
-  "TCSA_PORT" : "30002",
+  "TCSA_IP": "tcsaui.tcsa.broadcom.run",
+  "TCSA_PORT" : "443",
   "TCSA_USERNAME" : "admin",
   "TCSA_PASSWORD" : "changeme",
   "PROTOCOL": "https",
